@@ -1,7 +1,8 @@
-# Playable Readings: feel Kafka, don't just read him
+# Playable Readings: feel the text, don't just read it
 
-Two of Franz Kafka's parables, *Before the Law* and *An Imperial Message*, turned
-into games that a class can play in one period. This folder is the whole
+Two of Franz Kafka's parables, *Before the Law* and *An Imperial Message*, and
+Cicero's speech *Pro Archia*, as *Save the Poet*, turned into games that a class
+can play in one period. This folder is the whole
 published site. It can be opened straight from a disk, copied to a USB stick,
 or put on any web host.
 
@@ -38,18 +39,23 @@ also shown as text.
 | `for-teachers.html` | For teachers of any course: a lesson plan, discussion questions, classroom board notes, troubleshooting. Prints cleanly |
 | `before-the-law.html` | *Before the Law* in 3D, about fifteen minutes |
 | `imperial-message.html` | *An Imperial Message* in 3D, about twelve minutes |
-| `before-the-law-text.html`, `imperial-message-text.html` | The same two pieces without 3D or narration, for old devices |
+| `save-the-poet.html` | *Save the Poet*, Cicero's *Pro Archia* as a voiced 3D trial, about twenty minutes |
+| `voice-poet/` | The voices of *Save the Poet*: one MP3 per spoken line, read by `save-the-poet.html` from beside it |
+| `save-the-poet-about.html` | About *Save the Poet*: the trial of 62 BC, what the game's parts mean, what was made and what is original |
+| `before-the-law-text.html`, `imperial-message-text.html`, `save-the-poet-text.html` | The same three pieces without 3D or narration, for old devices |
 | `README.md`, `LICENSES.md` | This file, and the full record of what everything is made from |
 | `llms.txt` | A plain summary of the project for AI assistants |
 | `robots.txt`, `sitemap.xml` | For search engines |
 | `404.html` | Shown by the web host for an address that does not exist |
-| `og-image.jpg`, `og-before-the-law.jpg`, `og-imperial-message.jpg`, `og-acknowledgements.jpg` | The preview pictures shown when a link is shared |
+| `og-image.jpg`, `og-before-the-law.jpg`, `og-imperial-message.jpg`, `og-save-the-poet.jpg`, `og-acknowledgements.jpg` | The preview pictures shown when a link is shared |
 | `favicon.png`, `apple-touch-icon.png` | The tab icon, as files, for search engines and phones |
 | `.nojekyll` | Tells GitHub Pages to serve the folder exactly as it is |
 
-Each of the four game pages is a single self-contained file: the 3D engine,
-models, textures, narration and sound are all inside it. A game page can be
-emailed or copied on its own and will still run.
+Each game page is a single self-contained file: the 3D engine, models,
+textures and sound are all inside it, and it can be emailed or copied on its
+own and will still run. The one exception is the narration of *Save the Poet*,
+which is in the `voice-poet/` folder beside it: copied without that folder,
+the game still plays, with subtitles and no voices.
 
 ## In a classroom
 
@@ -218,4 +224,4 @@ answer a work of literature by making something of their own.
 
 ---
 
-Built 2026-10-14. Folder size: 10.7 MB.
+Built 2026-10-26. Folder size: 16.0 MB.

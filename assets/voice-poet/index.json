@@ -1,0 +1,704 @@
+{
+ "55937024": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"You spoke for poetry, Marcus. Now poetry owes you a poem.\"]",
+  "dur": 5.77,
+  "who": "archias",
+  "text": "You spoke for poetry, Marcus. Now poetry owes you a poem."
+ },
+ "85236288": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Three envoys from Herakleea step forward in Greek cloaks and lay a sealed tablet before the praetor: the town's official word that Arkias is its citizen.\"]",
+  "dur": 11.73,
+  "who": "narrator",
+  "text": "Three envoys from Heraclea step forward in Greek cloaks and lay a seal"
+ },
+ "0444de30": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"A few jurors smile. Not with you. Grattius smirks openly.\"]",
+  "dur": 5.71,
+  "who": "narrator",
+  "text": "A few jurors smile. Not with you. Grattius smirks openly."
+ },
+ "04751715": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"On the tribunal sits the praetor, your own brother Quintus. Eight jurors on the benches. Arkias, by your side, does not look up.\"]",
+  "dur": 10.23,
+  "who": "narrator",
+  "text": "On the tribunal sits the praetor, your own brother Quintus. Eight juro"
+ },
+ "04b7fa4e": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Watch who each one will please. Tap a juror to remind yourself what he cares about.\"]",
+  "dur": 6.86,
+  "who": "narrator",
+  "text": "Watch who each one will please. Tap a juror to remind yourself what he"
+ },
+ "04c5384e": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Servius: con-demno. He condemns.\"]",
+  "dur": 4.19,
+  "who": "quintus",
+  "text": "Servius: condemno. He condemns."
+ },
+ "088a8d67": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"A citizen of Herakleea? Then show the court Herakleea's register!\"]",
+  "dur": 5.55,
+  "who": "grattius",
+  "text": "A citizen of Heraclea? Then show the court Heraclea's register!"
+ },
+ "0ccdb37e": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Atilius: ab-solvo. He acquits.\"]",
+  "dur": 4.09,
+  "who": "quintus",
+  "text": "Atilius: absolvo. He acquits."
+ },
+ "0d3cc473": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"His name is in no census. Not one, in twenty-seven years.\"]",
+  "dur": 5.37,
+  "who": "grattius",
+  "text": "His name is in no census. Not one, in twenty-seven years."
+ },
+ "0eb9ae41": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Condemned, by 8 votes to 0. Under the law of Pappius, Arkias must leave Rome.\"]",
+  "dur": 7.03,
+  "who": "narrator",
+  "text": "Condemned, by 8 votes to 0. Under the law of Papius, Archias must leav"
+ },
+ "10b25500": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"Then I shall go where Greek is read. That is everywhere.\"]",
+  "dur": 5.19,
+  "who": "archias",
+  "text": "Then I shall go where Greek is read. That is everywhere."
+ },
+ "12155da5": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The long list of famous friends made Varro yawn.\"]",
+  "dur": 4.93,
+  "who": "narrator",
+  "text": "The long list of famous friends made Varro yawn."
+ },
+ "1401bc95": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Metellus was his friend. Of course he wrote him in.\"]",
+  "dur": 4.57,
+  "who": "grattius",
+  "text": "Metellus was his friend. Of course he wrote him in."
+ },
+ "1505f7c9": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Condemned, by 5 votes to 3. Under the law of Pappius, Arkias must leave Rome.\"]",
+  "dur": 7.11,
+  "who": "narrator",
+  "text": "Condemned, by 5 votes to 3. Under the law of Papius, Archias must leav"
+ },
+ "153b4d49": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"A knock. Arkias comes in: thin, grey, holding a case of papers as if it might break.\"]",
+  "dur": 7.03,
+  "who": "narrator",
+  "text": "A knock. Archias comes in: thin, grey, holding a case of papers as if "
+ },
+ "158c5a8e": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Grattius sits. You have answered him. One more stroke of the law, or leave it there?\"]",
+  "dur": 6.48,
+  "who": "narrator",
+  "text": "Grattius sits. You have answered him. One more stroke of the law, or l"
+ },
+ "18ddece1": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Publius: con-demno. He condemns.\"]",
+  "dur": 4.14,
+  "who": "quintus",
+  "text": "Publius: condemno. He condemns."
+ },
+ "197c9646": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Nayus: con-demno. He condemns.\"]",
+  "dur": 4.14,
+  "who": "quintus",
+  "text": "Gnaeus: condemno. He condemns."
+ },
+ "1a6c1d86": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"Antioch, where I was born. Fame in Asia and Greece. Tarentum, Rhegium, Neapolis. Rome at seventeen, the year Marius and Catulus were consuls; the Lucullee took me in. Herakleea, with Marcus Lucullus. Then the law of 89, and Metellus. Since then, the wars in the east with Lucius Lucullus: I was with his army at the last census, and in Asia at the one before. I have made my will as a Roman, Marcus. I have inherited as one.\"]",
+  "dur": 30.77,
+  "who": "archias",
+  "text": "Antioch, where I was born. Fame in Asia and Greece. Tarentum, Rhegium,"
+ },
+ "1a6f1636": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"How brave, to insult a man who is not here.\"]",
+  "dur": 4.32,
+  "who": "grattius",
+  "text": "How brave, to insult a man who is not here."
+ },
+ "1d6e7bd9": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Convenient absences.\"]",
+  "dur": 3.13,
+  "who": "grattius",
+  "text": "Convenient absences."
+ },
+ "1e3f0f95": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Choose your answer from the evidence you hold: up to three cards, 3 water each.\"]",
+  "dur": 6.71,
+  "who": "narrator",
+  "text": "Choose your answer from the evidence you hold: up to three cards, 3 wa"
+ },
+ "23a61811": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"He sang the war against the Kimbree and the war against Mithridates: our victories, our generals, our name. Greek is read in every nation; through his verse, Rome's glory travels as far as her armies did.\"]",
+  "dur": 12.47,
+  "who": "cicero",
+  "text": "He sang the war against the Cimbri and the war against Mithridates: ou"
+ },
+ "24e09b0c": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"You call your first witness. Marcus Lucullus, senator, rises from the front row. What do you ask him?\"]",
+  "dur": 8.18,
+  "who": "narrator",
+  "text": "You call your first witness. Marcus Lucullus, senator, rises from the "
+ },
+ "250bd378": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The legal chain is there, in order: Rome, Herakleea, the declaration before Metellus. Atilius writes it down.\"]",
+  "dur": 9.13,
+  "who": "narrator",
+  "text": "The legal chain is there, in order: Rome, Heraclea, the declaration be"
+ },
+ "27e02275": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"They say Grattius has the law of Pappius in one hand and nothing in the other. But nothing is enough, Marcus, when the papers are ash.\"]",
+  "dur": 10.46,
+  "who": "archias",
+  "text": "They say Grattius has the law of Papius in one hand and nothing in the"
+ },
+ "2996e7ae": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"You ask why I love this man? Because he gives my mind rest from the noise of this place, and the strength to speak in it.\"]",
+  "dur": 7.82,
+  "who": "cicero",
+  "text": "You ask why I love this man? Because he gives my mind rest from the no"
+ },
+ "2e028ae4": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"So the defence admits it: there is no record. Thank you, Cicero.\"]",
+  "dur": 5.24,
+  "who": "grattius",
+  "text": "So the defence admits it: there is no record. Thank you, Cicero."
+ },
+ "3600f7c5": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The crowd roars before Quintus has finished counting. Arkias is a Roman citizen, and everyone in the Forum has heard why poets matter.\"]",
+  "dur": 10.86,
+  "who": "narrator",
+  "text": "The crowd roars before Quintus has finished counting. Archias is a Rom"
+ },
+ "378472a8": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Appius' lists were careless, Gabinius' corrupt. But Metellus came to court worried over a single erased name. Look at his lists: there is no erasure over Aulus Licinius.\"]",
+  "dur": 10.96,
+  "who": "cicero",
+  "text": "Appius' lists were careless, Gabinius' corrupt. But Metellus came to c"
+ },
+ "38ad5880": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Each juror takes a wax tablet marked A, ab-solvo, I acquit, and C, con-demno, I condemn; scratches out one letter; and drops it into the urn. Quintus reads them out.\"]",
+  "dur": 13.21,
+  "who": "narrator",
+  "text": "Each juror takes a wax tablet marked A, absolvo, I acquit, and C, cond"
+ },
+ "3af07976": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Judges, this man is a Syrian: a Greek who sings for his supper in the houses of the great. He says he is a citizen of Herakleea; then show me Herakleea's register. He says he is a citizen of Rome; then show me his name in one census, any census, in twenty-seven years. You cannot. The law of Pappius was made for exactly this man. Send him home.\"]",
+  "dur": 19.76,
+  "who": "grattius",
+  "text": "Judges, this man is a Syrian: a Greek who sings for his supper in the "
+ },
+ "3b2e9501": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Tell the jury who he is. Briefly: every part of the story costs water, and only six will fit.\"]",
+  "dur": 8.13,
+  "who": "narrator",
+  "text": "Tell the jury who he is. Briefly: every part of the story costs water,"
+ },
+ "3e3a6596": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Titus Ow-fiddius: con-demno. He condemns.\"]",
+  "dur": 4.93,
+  "who": "quintus",
+  "text": "Titus Aufidius: condemno. He condemns."
+ },
+ "4041f8bf": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Choose the parts, in the order you will tell them.\"]",
+  "dur": 4.3,
+  "who": "narrator",
+  "text": "Choose the parts, in the order you will tell them."
+ },
+ "43c92308": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"The great Africanus kept the poet Ennius always beside him. Themistocles, asked which voice he liked best to hear, said: the one that best proclaims my deeds.\"]",
+  "dur": 10.45,
+  "who": "cicero",
+  "text": "The great Africanus kept the poet Ennius always beside him. Themistocl"
+ },
+ "45d3cd44": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Most of the class would stop. The jury's faces say something else.\"]",
+  "dur": 5.63,
+  "who": "narrator",
+  "text": "Most of the class would stop. The jury's faces say something else."
+ },
+ "48522dda": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"And the other censuses?\"]",
+  "dur": 2.9,
+  "who": "grattius",
+  "text": "And the other censuses?"
+ },
+ "4ac99c64": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"I made my will by Roman law. I took inheritances from Roman friends. And at the census of Julius and Crassus, Marcus, nobody was counted at all.\"]",
+  "dur": 12.64,
+  "who": "archias",
+  "text": "I made my will by Roman law. I took inheritances from Roman friends. A"
+ },
+ "5593ca08": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The jury laughs. Then it waits for an ending that does not come: you have finished on a joke.\"]",
+  "dur": 7,
+  "who": "narrator",
+  "text": "The jury laughs. Then it waits for an ending that does not come: you h"
+ },
+ "567452dd": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"He never truly lived in Rome. A wandering singer has no fixed home.\"]",
+  "dur": 5.63,
+  "who": "grattius",
+  "text": "He never truly lived in Rome. A wandering singer has no fixed home."
+ },
+ "57f8928f": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"He gathers his scrolls slowly. Forty years in this city, and the papers that proved it are ash.\"]",
+  "dur": 7.86,
+  "who": "narrator",
+  "text": "He gathers his scrolls slowly. Forty years in this city, and the paper"
+ },
+ "59146ff4": {
+  "sig": "[{\"voice\":\"am_puck\",\"speed\":1.02,\"pitch\":1,\"wet\":0.12,\"size\":0.5},\"Appius kept his lists carelessly, sir, and Gabinius' were worthless. Metellus? He once came to court worried about a single erased name.\"]",
+  "dur": 9.71,
+  "who": "clerk",
+  "text": "Appius kept his lists carelessly, sir, and Gabinius' were worthless. M"
+ },
+ "627b3eb2": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"A charming biography. But when, exactly, did this Syrian become a Roman? The defence seems to have forgotten.\"]",
+  "dur": 7.77,
+  "who": "grattius",
+  "text": "A charming biography. But when, exactly, did this Syrian become a Roma"
+ },
+ "62aae2a4": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Why such love for this little Greek, Cicero? What is a poet to a Roman court?\"]",
+  "dur": 6.15,
+  "who": "grattius",
+  "text": "Why such love for this little Greek, Cicero? What is a poet to a Roman"
+ },
+ "62e534c4": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“I did it myself. I do not think it, I know it. I did not hear of it, I saw it.”\"]",
+  "dur": 6.34,
+  "who": "lucullus",
+  "text": "“I did it myself. I do not think it, I know it. I did not hear of it, "
+ },
+ "697b54e2": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"One witness. A friend of the accused, no less.\"]",
+  "dur": 4.45,
+  "who": "grattius",
+  "text": "One witness. A friend of the accused, no less."
+ },
+ "6ab26e8d": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"Enough is a beautiful word, Marcus.\"]",
+  "dur": 4.27,
+  "who": "archias",
+  "text": "Enough is a beautiful word, Marcus."
+ },
+ "6d30aa8a": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"You agree the lists are bad, then?\"]",
+  "dur": 3.52,
+  "who": "grattius",
+  "text": "You agree the lists are bad, then?"
+ },
+ "6f665ed4": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"The defence has nothing to say.\"]",
+  "dur": 3.57,
+  "who": "grattius",
+  "text": "The defence has nothing to say."
+ },
+ "71d34501": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Condemned, by 7 votes to 1. Under the law of Pappius, Arkias must leave Rome.\"]",
+  "dur": 7.08,
+  "who": "narrator",
+  "text": "Condemned, by 7 votes to 1. Under the law of Papius, Archias must leav"
+ },
+ "72a2194a": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Mamilius: con-demno. He condemns.\"]",
+  "dur": 4.33,
+  "who": "quintus",
+  "text": "Mamilius: condemno. He condemns."
+ },
+ "740711fe": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Alexander, standing at the tomb of Achilles, cried out: Fortunate young man, to have found a Homer to sing your courage! Without the Iliad, the same mound that covered his body would have buried his name.\"]",
+  "dur": 11.83,
+  "who": "cicero",
+  "text": "Alexander, standing at the tomb of Achilles, cried out: Fortunate youn"
+ },
+ "75eae2de": {
+  "sig": "[{\"voice\":\"bm_lewis\",\"speed\":0.86,\"pitch\":1.03,\"wet\":0.08,\"size\":0.45,\"tremolo\":0.06},\"Well? Can you save me?\"]",
+  "dur": 3.1,
+  "who": "archias",
+  "text": "Well? Can you save me?"
+ },
+ "766f4b38": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“It is very fine.” Servius smiles; everyone else waits.\"]",
+  "dur": 4.87,
+  "who": "lucullus",
+  "text": "“It is very fine.” Servius smiles; everyone else waits."
+ },
+ "7732951e": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Acquitted, by 5 votes to 3. Not a triumph, but enough. Arkias closes his eyes.\"]",
+  "dur": 7.48,
+  "who": "narrator",
+  "text": "Acquitted, by 5 votes to 3. Not a triumph, but enough. Archias closes "
+ },
+ "7a219adc": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Before Grattius replies, you have a moment. Use it?\"]",
+  "dur": 5,
+  "who": "narrator",
+  "text": "Before Grattius replies, you have a moment. Use it?"
+ },
+ "7d8c6d66": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Sempronius: con-demno. He condemns.\"]",
+  "dur": 4.38,
+  "who": "quintus",
+  "text": "Sempronius: condemno. He condemns."
+ },
+ "7fc588d7": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"These studies nourish youth and delight old age; they adorn good fortune and give refuge and comfort in bad; they please us at home and travel with us, through the night and into the country.\"]",
+  "dur": 11.83,
+  "who": "cicero",
+  "text": "These studies nourish youth and delight old age; they adorn good fortu"
+ },
+ "81b160bb": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Varro: con-demno. He condemns.\"]",
+  "dur": 4.25,
+  "who": "quintus",
+  "text": "Varro: condemno. He condemns."
+ },
+ "84daa8cc": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“They burned with the record office in the Italian war.”\"]",
+  "dur": 4.47,
+  "who": "lucullus",
+  "text": "“They burned with the record office in the Italian war.”"
+ },
+ "8593e041": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The room is not sure. Mamilius looks harder at his census lists.\"]",
+  "dur": 5.58,
+  "who": "narrator",
+  "text": "The room is not sure. Mamilius looks harder at his census lists."
+ },
+ "86ae8fd2": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Mamilius: ab-solvo. He acquits.\"]",
+  "dur": 4.19,
+  "who": "quintus",
+  "text": "Mamilius: absolvo. He acquits."
+ },
+ "88bcce8d": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The jurors had already made up their minds.\"]",
+  "dur": 4.25,
+  "who": "narrator",
+  "text": "The jurors had already made up their minds."
+ },
+ "88ee4b91": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Condemned, by 6 votes to 2. Under the law of Pappius, Arkias must leave Rome.\"]",
+  "dur": 6.91,
+  "who": "narrator",
+  "text": "Condemned, by 6 votes to 2. Under the law of Papius, Archias must leav"
+ },
+ "8c9f1f46": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Nayus: ab-solvo. He acquits.\"]",
+  "dur": 3.98,
+  "who": "quintus",
+  "text": "Gnaeus: absolvo. He acquits."
+ },
+ "93b71e4b": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"You are Marcus Tullius Cicero. Last year you were consul and saved the Republic, or so you like to say. Tomorrow you defend an old man in court.\"]",
+  "dur": 11.21,
+  "who": "narrator",
+  "text": "You are Marcus Tullius Cicero. Last year you were consul and saved the"
+ },
+ "95c54511": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Ennius calls poets sacred. Rocks and deserts answer a poet's voice. Seven cities quarrel over Homer, a foreigner, each claiming him as its own; and shall Rome drive out a living poet who is hers by law?\"]",
+  "dur": 13.16,
+  "who": "cicero",
+  "text": "Ennius calls poets sacred. Rocks and deserts answer a poet's voice. Se"
+ },
+ "98084df9": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Four votes to four. In a Roman court a tie acquits: Arkias is saved by the narrowest margin there is. Arkias closes his eyes.\"]",
+  "dur": 10.43,
+  "who": "narrator",
+  "text": "Four votes to four. In a Roman court a tie acquits: Archias is saved b"
+ },
+ "9b2dc852": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"The court is in session. The charge is under the law of Gaius Pappius. Grattius, you may speak.\"]",
+  "dur": 8.73,
+  "who": "quintus",
+  "text": "The court is in session. The charge is under the law of Gaius Papius. "
+ },
+ "9c1ca44e": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Atilius: con-demno. He condemns.\"]",
+  "dur": 4.36,
+  "who": "quintus",
+  "text": "Atilius: condemno. He condemns."
+ },
+ "9f495d8e": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The water is low. One last appeal. How do you end?\"]",
+  "dur": 5.16,
+  "who": "narrator",
+  "text": "The water is low. One last appeal. How do you end?"
+ },
+ "a3329626": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Acquitted, by 6 votes to 2. Not a triumph, but enough. Arkias closes his eyes.\"]",
+  "dur": 7.21,
+  "who": "narrator",
+  "text": "Acquitted, by 6 votes to 2. Not a triumph, but enough. Archias closes "
+ },
+ "a35873ff": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Did not Pompey himself, our Great one, make his historian Theoffaneez a Roman citizen in front of his assembled army, while the soldiers cheered?\"]",
+  "dur": 9.89,
+  "who": "cicero",
+  "text": "Did not Pompey himself, our Great one, make his historian Theophanes a"
+ },
+ "a6779a85": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"You have the law, the word of a town, the testimony of Lucullus and the lists of Metellus. Protect, then, a man who has always honoured you, your generals and the Roman people; let him be seen to be rescued by your humanity, not injured by your severity.\"]",
+  "dur": 15.2,
+  "who": "cicero",
+  "text": "You have the law, the word of a town, the testimony of Lucullus and th"
+ },
+ "acec7366": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Sempronius: ab-solvo. He acquits.\"]",
+  "dur": 4.38,
+  "who": "quintus",
+  "text": "Sempronius: absolvo. He acquits."
+ },
+ "b4ca581d": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Even if he declared himself, those praetors' lists are worthless. Anyone could buy a line in them.\"]",
+  "dur": 6.84,
+  "who": "grattius",
+  "text": "Even if he declared himself, those praetors' lists are worthless. Anyo"
+ },
+ "b4ea67da": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The room murmurs: absence is not proof. The undecided jurors take note.\"]",
+  "dur": 6.73,
+  "who": "narrator",
+  "text": "The room murmurs: absence is not proof. The undecided jurors take note"
+ },
+ "b531c718": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"That is not an answer to my question.\"]",
+  "dur": 3.85,
+  "who": "grattius",
+  "text": "That is not an answer to my question."
+ },
+ "b73cc3af": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Varro: ab-solvo. He acquits.\"]",
+  "dur": 4,
+  "who": "quintus",
+  "text": "Varro: absolvo. He acquits."
+ },
+ "b93cd728": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The law is on your side now. You can see it in Atilius' notes, in Mamilius' nod.\"]",
+  "dur": 7.13,
+  "who": "narrator",
+  "text": "The law is on your side now. You can see it in Atilius' notes, in Mami"
+ },
+ "bc57277e": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Servius: ab-solvo. He acquits.\"]",
+  "dur": 4.03,
+  "who": "quintus",
+  "text": "Servius: absolvo. He acquits."
+ },
+ "c2e3283b": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“All Rome knows him.” The jury already knew that.\"]",
+  "dur": 4.29,
+  "who": "lucullus",
+  "text": "“All Rome knows him.” The jury already knew that."
+ },
+ "c52119b6": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Titus Ow-fiddius: ab-solvo. He acquits.\"]",
+  "dur": 4.98,
+  "who": "quintus",
+  "text": "Titus Aufidius: absolvo. He acquits."
+ },
+ "c6d619bc": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"But look at the benches. Varro is checking the sun. Publius is whispering. Titus has folded his arms.\"]",
+  "dur": 8.36,
+  "who": "narrator",
+  "text": "But look at the benches. Varro is checking the sun. Publius is whisper"
+ },
+ "ca45c02e": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Atilius frowns: the dates of Herakleea and the law came out in the wrong order, and he had to untangle them.\"]",
+  "dur": 8.46,
+  "who": "narrator",
+  "text": "Atilius frowns: the dates of Heraclea and the law came out in the wron"
+ },
+ "cae1c5bd": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"If I have any talent, judges (and I know how little it is), my friend Arkias has a right to it. Grant me one favour: let me speak of literature, as befits a poet's defence.\"]",
+  "dur": 11.29,
+  "who": "cicero",
+  "text": "If I have any talent, judges (and I know how little it is), my friend "
+ },
+ "ce3d4016": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"At the last census he was with Lucullus' army; at the one before, in Asia; at the first, no one was counted at all. And a census only shows who claimed citizenship: this man made his will and took inheritances as a Roman.\"]",
+  "dur": 13.92,
+  "who": "cicero",
+  "text": "At the last census he was with Lucullus' army; at the one before, in A"
+ },
+ "d2605ef0": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Rome, sixty-two B.C.. Night. A lamp, a table, a hundred scrolls.\"]",
+  "dur": 6.36,
+  "who": "narrator",
+  "text": "Rome, 62 BC. Night. A lamp, a table, a hundred scrolls."
+ },
+ "d2c76db9": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The water clock is turned for you. Everyone is looking at you. How do you begin?\"]",
+  "dur": 6.23,
+  "who": "narrator",
+  "text": "The water clock is turned for you. Everyone is looking at you. How do "
+ },
+ "d605da70": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"A wretched poet once handed Sulla a few verses in his praise. Sulla paid him at once, on one condition: that he never write anything again. If Sulla rewarded even a bad poet, what would he have given Arkias?\"]",
+  "dur": 13,
+  "who": "cicero",
+  "text": "A wretched poet once handed Sulla a few verses in his praise. Sulla pa"
+ },
+ "d687fd71": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Publius: ab-solvo. He acquits.\"]",
+  "dur": 3.95,
+  "who": "quintus",
+  "text": "Publius: absolvo. He acquits."
+ },
+ "d97e05c4": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“With my brother's army in the east.”\"]",
+  "dur": 3.26,
+  "who": "lucullus",
+  "text": "“With my brother's army in the east.”"
+ },
+ "d9daada9": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"...Forty years in one house. Very well.\"]",
+  "dur": 3.93,
+  "who": "grattius",
+  "text": "...Forty years in one house. Very well."
+ },
+ "df1cba91": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"It is absurd to say nothing of the proof we have, and demand the proof no one can have.\"]",
+  "dur": 6.24,
+  "who": "cicero",
+  "text": "It is absurd to say nothing of the proof we have, and demand the proof"
+ },
+ "dfed4202": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Most of the class would go on.\"]",
+  "dur": 3.63,
+  "who": "narrator",
+  "text": "Most of the class would go on."
+ },
+ "e263c668": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"He lays the case file on your table. Read it, or don’t: tomorrow you will only have what you know.\"]",
+  "dur": 7.68,
+  "who": "narrator",
+  "text": "He lays the case file on your table. Read it, or don’t: tomorrow you w"
+ },
+ "e4ae6b5b": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"You go over the records again. Two jurors are now openly not listening.\"]",
+  "dur": 6.08,
+  "who": "narrator",
+  "text": "You go over the records again. Two jurors are now openly not listening"
+ },
+ "e5f9898b": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Now speak for literature. Choose four arguments, and put them in the order you will make them. 6 water each.\"]",
+  "dur": 8.38,
+  "who": "narrator",
+  "text": "Now speak for literature. Choose four arguments, and put them in the o"
+ },
+ "e6d7460b": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Others spend their free hours on games and dice and parties. I spend mine on books, and from them I come back to the courts stronger, and ready for my friends.\"]",
+  "dur": 10.32,
+  "who": "cicero",
+  "text": "Others spend their free hours on games and dice and parties. I spend m"
+ },
+ "eb5f0e70": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Each question costs water. Ask well.\"]",
+  "dur": 4.18,
+  "who": "narrator",
+  "text": "Each question costs water. Ask well."
+ },
+ "ecaae2e6": {
+  "sig": "[{\"voice\":\"am_fenrir\",\"speed\":0.95,\"pitch\":0.95,\"wet\":0.16,\"size\":0.6},\"“I was.”\"]",
+  "dur": 2.03,
+  "who": "lucullus",
+  "text": "“I was.”"
+ },
+ "f2151284": {
+  "sig": "[{\"voice\":\"am_michael\",\"speed\":0.92,\"pitch\":0.92,\"wet\":0.18,\"size\":0.7},\"Keep to the point, Cicero.\"]",
+  "dur": 3.38,
+  "who": "quintus",
+  "text": "Keep to the point, Cicero."
+ },
+ "fbd84996": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Tarentum, Neapolis? Then let Tarentum keep him!\"]",
+  "dur": 4.47,
+  "who": "grattius",
+  "text": "Tarentum, Neapolis? Then let Tarentum keep him!"
+ },
+ "fce648c6": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"The Forum in spring sunlight. The Rostra, the Temple of Castor, and a crowd that has come to watch a famous man speak.\"]",
+  "dur": 9.18,
+  "who": "narrator",
+  "text": "The Forum in spring sunlight. The Rostra, the Temple of Castor, and a "
+ },
+ "fe59c650": {
+  "sig": "[{\"voice\":\"am_onyx\",\"speed\":1,\"pitch\":0.97,\"wet\":0.14,\"size\":0.6},\"Witnesses. Always witnesses. Where is the paper?\"]",
+  "dur": 4.42,
+  "who": "grattius",
+  "text": "Witnesses. Always witnesses. Where is the paper?"
+ },
+ "fed52b29": {
+  "sig": "[{\"voice\":\"bm_george\",\"speed\":0.95,\"pitch\":1,\"wet\":0.06,\"size\":0.45},\"Heads come up along the benches. The crowd behind them pushes closer.\"]",
+  "dur": 5.83,
+  "who": "narrator",
+  "text": "Heads come up along the benches. The crowd behind them pushes closer."
+ },
+ "0904fd97": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"He sang the war against the Kimbree, and pleased even Marius.\"]",
+  "dur": 4.92,
+  "who": "cicero",
+  "text": "He sang the war against the Cimbri, and pleased even Marius."
+ },
+ "1c059e25": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"While he was still a boy, his talent was famous across all of Asia and Greece.\"]",
+  "dur": 5.66,
+  "who": "cicero",
+  "text": "While he was still a boy, his talent was famous across all of Asia and"
+ },
+ "64fcccaa": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"He came to Rome at about seventeen, in the year Marius and Catulus were consuls.\"]",
+  "dur": 6.27,
+  "who": "cicero",
+  "text": "He came to Rome at about seventeen, in the year Marius and Catulus wer"
+ },
+ "9a35f3ad": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"When the law of 89 was passed, he declared himself before the praetor Metellus, within the sixty days.\"]",
+  "dur": 7.37,
+  "who": "cicero",
+  "text": "When the law of 89 was passed, he declared himself before the praetor "
+ },
+ "ad01a82a": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"He was born at Antioch, a rich and famous city, full of learning.\"]",
+  "dur": 5.04,
+  "who": "cicero",
+  "text": "He was born at Antioch, a rich and famous city, full of learning."
+ },
+ "bb10b455": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"Tarentum, Rhegium and Neapolis made him their citizen, and honoured him.\"]",
+  "dur": 5.35,
+  "who": "cicero",
+  "text": "Tarentum, Rhegium and Neapolis made him their citizen, and honoured hi"
+ },
+ "c0650ad5": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"The Metellee, Catulus, Crassus, Drusus, the Hortensee: the first men of Rome were his friends.\"]",
+  "dur": 6.88,
+  "who": "cicero",
+  "text": "The Metelli, Catulus, Crassus, Drusus, the Hortensii: the first men of"
+ },
+ "d4cf2439": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"The Lucullee took him into their house, and it has been his home ever since.\"]",
+  "dur": 5.3,
+  "who": "cicero",
+  "text": "The Luculli took him into their house, and it has been his home ever s"
+ },
+ "e09d580e": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"With Marcus Lucullus beside him, he was enrolled as a citizen of Herakleea.\"]",
+  "dur": 6.29,
+  "who": "cicero",
+  "text": "With Marcus Lucullus beside him, he was enrolled as a citizen of Herac"
+ },
+ "e8b1b488": {
+  "sig": "[{\"voice\":\"bm_daniel\",\"speed\":0.96,\"pitch\":0.98,\"wet\":0.14,\"size\":0.62},\"He went east with Lucius Lucullus, and sang the war against Mithridates.\"]",
+  "dur": 5.45,
+  "who": "cicero",
+  "text": "He went east with Lucius Lucullus, and sang the war against Mithridate"
+ }
+}

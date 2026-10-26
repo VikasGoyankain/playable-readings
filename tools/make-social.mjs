@@ -1,5 +1,5 @@
 /* Renders the pictures the published site needs, into assets/social/:
-     og-image.jpg, og-before-the-law.jpg, og-imperial-message.jpg
+     og-image.jpg, og-before-the-law.jpg, og-imperial-message.jpg, og-save-the-poet.jpg
        the 1200x630 cards shown when a link is shared
      favicon.png (96), apple-touch-icon.png (180)
        the tab icon as files, for search engines and phones
@@ -10,6 +10,7 @@ import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { ICON_SVG, TAGLINE, PROFESSOR } from './site.mjs';
+import { GAMES } from './games.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const out = path.join(here, '../assets/social');
@@ -73,14 +74,14 @@ h1{font-size:74px;margin:34px 0 34px}
 <div class="g g1">${GATE}<small>Franz Kafka &#183; 1915</small><b>Before the Law</b></div>
 <div class="g g2">${RINGS}<small>Franz Kafka &#183; 1917</small><b>An Imperial Message</b></div>`;
 
-const gameCard = (art, title, line, mins) => `<style>${BASE}
+const gameCard = (art, title, line, mins, kicker = 'Franz Kafka &#183; playable') => `<style>${BASE}
 body{--x:74%}
 .t{position:absolute;left:78px;top:112px;width:620px}
 h1{font-size:82px;margin:30px 0 28px}
 .f{position:absolute;left:78px;bottom:66px}
 .a{position:absolute;right:40px;top:120px;width:500px}.a svg{width:100%;height:auto;display:block}
 </style><div class="glow"></div><div class="frame"></div>
-<div class="t"><div class="k">Franz Kafka &#183; playable</div><h1>${title}</h1><div class="s">${line}</div></div>
+<div class="t"><div class="k">${kicker}</div><h1>${title}</h1><div class="s">${line}</div></div>
 <div class="f">Free &#183; offline &#183; about ${mins} minutes</div><div class="a">${art}</div>`;
 
 const b = await puppeteer.launch({ headless: true });
@@ -96,6 +97,8 @@ await shot(hub, 'og-image.jpg', 1200, 630, jpg);
 await shot(thanks, 'og-acknowledgements.jpg', 1200, 630, jpg);
 await shot(gameCard(GATE, 'Before<br>the Law', 'You are the man from the country.<br>The gate stands open. Every choice costs years.', 'fifteen'), 'og-before-the-law.jpg', 1200, 630, jpg);
 await shot(gameCard(RINGS, 'An Imperial<br>Message', 'Carry a dying Emperor&#8217;s message through<br>a palace that never ends.', 'twelve'), 'og-imperial-message.jpg', 1200, 630, jpg);
+const POET = GAMES.find(g => g.file === 'save-the-poet.html');
+await shot(gameCard('<svg viewBox="0 0 300 150">' + POET.art + '</svg>', 'Save<br>the Poet', 'You are Cicero. Defend your old teacher<br>before eight jurors and a water clock.', 'twenty', 'Cicero &#183; Pro Archia &#183; playable'), 'og-save-the-poet.jpg', 1200, 630, jpg);
 const icon = s => `<style>html,body{margin:0;background:transparent}svg{display:block;width:${s}px;height:${s}px}</style>${ICON_SVG}`;
 await shot(icon(96), 'favicon.png', 96, 96, { type: 'png', omitBackground: true });
 await shot(icon(180), 'apple-touch-icon.png', 180, 180, { type: 'png' });

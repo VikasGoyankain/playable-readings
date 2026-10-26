@@ -16,7 +16,7 @@ const card = g => `    <article class="card">
       <h2><a href="${g.file}">${g.title}</a></h2>
       <p class="blurb">${g.blurb}</p>
       <p class="meta">About ${g.minutes} minutes &#183; narrated &#183; headphones help</p>
-      <div class="go"><a class="play" href="${g.file}"><span aria-hidden="true">&#9654;</span> Play ${g.title}</a><a class="quiet" href="${g.text}">Text-only version</a></div>
+      <div class="go"><a class="play" href="${g.file}"><span aria-hidden="true">&#9654;</span> Play ${g.title}</a><a class="quiet" href="${g.text}">Text-only version</a>${g.about ? '<a class="quiet" href="' + g.about + '">About this game</a>' : ''}</div>
     </article>`;
 
 export const HUB = `<!doctype html>
@@ -62,7 +62,7 @@ h1{margin:.7rem 0 .6rem;font-weight:normal;font-size:clamp(2.1rem,6.2vw,3.6rem);
 
 /* ---------- the games ---------- */
 main{position:relative;z-index:1;max-width:68rem;margin:0 auto;padding:0 16px 3rem}
-.games{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;scroll-margin-top:4rem;animation:rise 1.1s .25s ease both}
+.games{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;scroll-margin-top:4rem;animation:rise 1.1s .25s ease both}
 .card{position:relative;display:flex;flex-direction:column;padding:1.4rem 1.6rem 1.5rem;background:var(--panel);border:1px solid rgba(232,189,106,.28);border-radius:4px;
  transition:border-color .4s ease,background .4s ease,transform .4s ease}
 .card:hover,.card:focus-within{border-color:rgba(232,189,106,.7);background:#141210}
@@ -131,6 +131,7 @@ footer a{color:var(--soft);text-decoration:none;border-bottom:1px solid rgba(232
 footer a:hover,footer a:focus-visible{color:var(--gold)}
 
 @media (max-width:860px){.how{grid-template-columns:1fr 1fr}}
+@media (max-width:980px){.games{grid-template-columns:1fr;max-width:34rem;margin-left:auto;margin-right:auto}}
 @media (max-width:760px){.games,.fit,.vs li{grid-template-columns:1fr}.way a.brand{display:none}}
 @media (max-width:480px){.how{grid-template-columns:1fr}.teach{padding:1.5rem 1.3rem}}
 @media (prefers-reduced-motion:reduce){
@@ -147,8 +148,8 @@ ${BOARD_CSS}</style>
 
 <header class="top" id="top">
   <p class="kicker">Playable Readings &#183; free &#183; nothing to install &#183; works offline</p>
-  <h1>Feel Kafka. <span class="gilt">Don&#8217;t just read him.</span></h1>
-  <p class="lead">Two of Franz Kafka&#8217;s parables, turned into short games. Pick one and press Play.</p>
+  <h1>Feel the text. <span class="gilt">Don&#8217;t just read it.</span></h1>
+  <p class="lead">Two of Franz Kafka&#8217;s parables and a speech of Cicero&#8217;s, turned into short games. Pick one and press Play.</p>
 </header>
 
 <main>

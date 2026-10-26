@@ -17,13 +17,8 @@ const questions = f => {
 const Q_BTL = questions('../src/reflect.js'), Q_IM = questions('../src/im/reflect.js');
 const ol = a => '<ol>\n' + a.map(q => '    <li>' + q + '</li>').join('\n') + '\n  </ol>';
 
-export const TEACHERS = `<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="color-scheme" content="dark">
-${head('for-teachers.html', { files: true })}
-<style>
-:root{--bg:#0a090b;--panel:#0f0e0d;--ink:#d8cfbf;--soft:#b0a594;--dim:#7d7568;--line:#2a2622;--gold:#e8bd6a;--pale:#f1e7d3;
+/* the look of the site's long reading pages (this one and save-the-poet-about.html) */
+export const PAGE_CSS = `:root{--bg:#0a090b;--panel:#0f0e0d;--ink:#d8cfbf;--soft:#b0a594;--dim:#7d7568;--line:#2a2622;--gold:#e8bd6a;--pale:#f1e7d3;
  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--serif:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif}
 *{box-sizing:border-box}
 html{background:var(--bg);scroll-behavior:smooth}
@@ -92,7 +87,15 @@ footer a:hover,footer a:focus-visible{color:var(--gold)}
  .facts div,.plan div,.plan span,.ways div,.note,code{background:#fff!important}
  h2{break-after:avoid}.plan li,.ways div{break-inside:avoid}
 }
-html.board .way a,html.board .way button{font-size:.56rem;letter-spacing:.1em;padding:1rem .5rem}
+`;
+
+export const TEACHERS = `<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+${head('for-teachers.html', { files: true })}
+<style>
+${PAGE_CSS}html.board .way a,html.board .way button{font-size:.56rem;letter-spacing:.1em;padding:1rem .5rem}
 ${BOARD_CSS}</style>
 <script>${BOARD_JS}</script>
 </head><body>
