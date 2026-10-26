@@ -1,6 +1,6 @@
-# Playable Readings: feel Kafka, don't just read him
+# Playable Readings: feel the text, don't just read it
 
-> Two free browser games that let a student live Franz Kafka's parables "Before the Law" and "An Imperial Message" from the inside, instead of memorising their themes. Each takes one sitting of twelve to fifteen minutes, needs no account or installation, works offline, and ends with background notes and discussion questions. Made by a law student at National Law University, Delhi, for classroom use anywhere.
+> Three free browser games that let a student live a set reading from the inside instead of memorising it: Franz Kafka's parables "Before the Law" and "An Imperial Message", and Cicero's speech "Pro Archia" as "Save the Poet". Each takes one sitting of twelve to twenty minutes, needs no account or installation, works offline, and ends with background notes and discussion questions. Made by a law student at National Law University, Delhi, for classroom use anywhere.
 
 ## The motive
 
@@ -14,6 +14,7 @@ A theme that is memorised stays on the page. A theme that is lived stays in the 
 
 - **Before the Law** (after Kafka's "Vor dem Gesetz", 1915; the parable told in "The Trial"). First person, 3D, narrated, about fifteen minutes. The player walks to the gate of the Law and can ask, look, offer gifts, study the doorkeeper, or choose "Enter", which is always on screen and never disabled. Every choice costs years. The game ends by telling the player how long they waited and that the gate was never locked.
 - **An Imperial Message** (after Kafka's "Eine kaiserliche Botschaft", 1917). First person, 3D, narrated, about twelve minutes. A dying Emperor whispers a message meant for the player alone. As the messenger, the player memorises it and runs through endless crowds, chambers and courtyards. When Kafka's sentence turns to "if", the world is drawn in pencil and then torn up. The player ends at their own window and dreams the message for themselves. The message is never written anywhere.
+- **Save the Poet** (after Cicero's "Pro Archia", 62 BC). A voiced 3D courtroom, about twenty minutes. The player is Cicero, defending his old teacher, the Greek poet Archias, whose citizenship is challenged under the law of Papius. Eight named jurors react to every choice and a water clock limits every argument. The player builds the speech in Cicero's order (exordium, narratio, proof and refutation, the defence of literature, peroration) and can win the law yet lose the jury, or lose outright. Hands-up class votes are optional. A companion page explains the trial, what each part of the game stands for, and what is original.
 - Each game has a **text-only version** with the same choices, for old devices and for anyone who prefers it.
 - Each game ends with a **reflection page**: a record of what that player did, several readings of the parable, its historical context, discussion questions, and a written response the student can save as a text file. "An Imperial Message" also shows Kafka's German original with notes on key words.
 - A **page for teachers** gives a lesson plan for one period, the discussion questions, and instructions for running the games on a classroom digital board.
@@ -45,15 +46,19 @@ It is not a substitute for reading Kafka. It is meant to be played before the re
 
 ## Pages
 
-- [Home page](https://vikasgoyankain.github.io/playable-readings/): the two games, why the project was made, and a tribute to the teacher it was made for
+- [Home page](https://vikasgoyankain.github.io/playable-readings/): the two games, how to play, and why the project was made
+- [Acknowledgements](https://vikasgoyankain.github.io/playable-readings/acknowledgements.html): a tribute to the teacher the games were made for
 - [For teachers](https://vikasgoyankain.github.io/playable-readings/for-teachers.html): lesson plan, discussion questions, classroom board instructions, troubleshooting
 - [Before the Law](https://vikasgoyankain.github.io/playable-readings/before-the-law.html): the 3D game
 - [Before the Law, text-only](https://vikasgoyankain.github.io/playable-readings/before-the-law-text.html)
 - [An Imperial Message](https://vikasgoyankain.github.io/playable-readings/imperial-message.html): the 3D game
 - [An Imperial Message, text-only](https://vikasgoyankain.github.io/playable-readings/imperial-message-text.html)
+- [Save the Poet](https://vikasgoyankain.github.io/playable-readings/save-the-poet.html): Cicero's Pro Archia, the voiced 3D game
+- [Save the Poet, text-only](https://vikasgoyankain.github.io/playable-readings/save-the-poet-text.html)
+- [About Save the Poet](https://vikasgoyankain.github.io/playable-readings/save-the-poet-about.html): the trial of 62 BC, what the game's parts mean, what is original
 
 ## Credit
 
 Developed by Vikas Goyanka, LLB26057, National Law University, Delhi, as a project for a course joining law, language, literature and communication. Made in honour of Prof. (Dr.) Prasannanshu, Professor at National Law University, Delhi, whose teaching asks students to answer a work of literature by making something of their own.
 
-Suggested citation: Vikas Goyanka, "Playable Readings: Before the Law and An Imperial Message" (National Law University, Delhi, 2026), https://vikasgoyankain.github.io/playable-readings/
+Suggested citation: Vikas Goyanka, "Playable Readings: Before the Law, An Imperial Message and Save the Poet" (National Law University, Delhi, 2026), https://vikasgoyankain.github.io/playable-readings/

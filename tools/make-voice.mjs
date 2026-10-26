@@ -14,13 +14,11 @@
    ../assets/voice-im. There the speaker is chosen by block, not by quotes:
    the 'if' passages get a dreamier room, and 'never, never' a second voice. */
 import fs from 'fs';
-import vm from 'vm';
 import { KokoroTTS } from 'kokoro-js';
+import { repitch, reverb, tremble, normalise, mp3 } from './voice-dsp.mjs';
 const IM = process.argv.includes('im');
 const { T } = await import(IM ? '../src/im/text.gen.js' : '../src/text.gen.js');
 
-vm.runInThisContext(fs.readFileSync('node_modules/lamejs/lame.min.js', 'utf8'));
-const lamejs = globalThis.lamejs;
 
 /* the cast. To recast, change a voice here and rerun - the config is part of
    each line's cache key, so only that speaker's lines are regenerated. */
@@ -74,78 +72,6 @@ function allLines(v, out = []) {
   return out;
 }
 
-/* ---------------- dsp ---------------- */
-function repitch(x, p) {
-  if (p === 1) return x;
-  const n = Math.floor(x.length / p), y = new Float32Array(n);
-  for (let i = 0; i < n; i++) {
-    const f = i * p, k = Math.floor(f), a = f - k;
-    y[i] = (x[k] || 0) * (1 - a) + (x[k + 1] || 0) * a;
-  }
-  return y;
-}
-
-/* Freeverb, mono: eight damped combs into four allpasses */
-function reverb(x, sr, wet, size, tail) {
-  const scale = sr / 44100;
-  const combs = [1116, 1188, 1277, 1356, 1422, 1491, 1557, 1617].map(l => Math.round(l * scale));
-  const alls = [556, 441, 341, 225].map(l => Math.round(l * scale));
-  const fb = 0.70 + 0.28 * size, damp = 0.3;
-  const n = x.length + Math.round(tail * sr), y = new Float32Array(n);
-  const cb = combs.map(l => ({ b: new Float32Array(l), i: 0, s: 0 }));
-  const ab = alls.map(l => ({ b: new Float32Array(l), i: 0 }));
-  for (let t = 0; t < n; t++) {
-    const inp = (t < x.length ? x[t] : 0) * 0.015;
-    let o = 0;
-    for (const c of cb) {
-      const v = c.b[c.i];
-      c.s = v * (1 - damp) + c.s * damp;
-      c.b[c.i] = inp + c.s * fb;
-      c.i = (c.i + 1) % c.b.length;
-      o += v;
-    }
-    for (const a of ab) {
-      const v = a.b[a.i];
-      a.b[a.i] = o + v * 0.5;
-      a.i = (a.i + 1) % a.b.length;
-      o = v - o;
-    }
-    y[t] = (t < x.length ? x[t] : 0) * (1 - wet * 0.5) + o * wet * 3;
-  }
-  return y;
-}
-
-function tremble(x, sr, depth) {
-  if (!depth) return x;
-  const y = new Float32Array(x.length);
-  for (let i = 0; i < x.length; i++) {
-    const t = i / sr;
-    y[i] = x[i] * (1 - depth * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI * 5.3 + Math.sin(t * 1.7))));
-  }
-  return y;
-}
-
-function normalise(x) {
-  let peak = 0, sum = 0;
-  for (const v of x) { peak = Math.max(peak, Math.abs(v)); sum += v * v; }
-  const rms = Math.sqrt(sum / x.length) || 1;
-  const g = Math.min(0.1 / rms, 0.92 / (peak || 1));
-  return x.map(v => v * g);
-}
-
-function mp3(x, sr) {
-  const enc = new lamejs.Mp3Encoder(1, sr, KBPS);
-  const pcm = new Int16Array(x.length);
-  for (let i = 0; i < x.length; i++) pcm[i] = Math.max(-1, Math.min(1, x[i])) * 32767;
-  const parts = [];
-  for (let i = 0; i < pcm.length; i += 1152) {
-    const b = enc.encodeBuffer(pcm.subarray(i, i + 1152));
-    if (b.length) parts.push(Buffer.from(b));
-  }
-  const e = enc.flush(); if (e.length) parts.push(Buffer.from(e));
-  return Buffer.concat(parts);
-}
-
 /* ---------------- run ---------------- */
 fs.mkdirSync(OUT, { recursive: true });
 const idxPath = OUT + '/index.json';
@@ -182,7 +108,7 @@ for (const line of todo) {
   }
   const total = pieces.reduce((n, p) => n + p.length, 0), all = new Float32Array(total);
   let o = 0; for (const p of pieces) { all.set(p, o); o += p.length; }
-  fs.writeFileSync(OUT + '/' + key + '.mp3', mp3(all, sr));
+  fs.writeFileSync(OUT + '/' + key + '.mp3', mp3(all, sr, KBPS));
   index[key] = { sig: JSON.stringify(segs.map(([w]) => CAST[w])), dur: +(total / sr).toFixed(2), text: decode(line).slice(0, 80) };
   fs.writeFileSync(idxPath, JSON.stringify(index, null, 1));
   done++;

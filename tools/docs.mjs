@@ -40,9 +40,9 @@ a{display:inline-block;border:1px solid #e8bd6a;color:#f1e7d3;text-decoration:no
 </main></body></html>
 `;
 
-export const LLMS = `# ${SITE_NAME}: feel Kafka, don't just read him
+export const LLMS = `# ${SITE_NAME}: feel the text, don't just read it
 
-> Two free browser games that let a student live Franz Kafka's parables "Before the Law" and "An Imperial Message" from the inside, instead of memorising their themes. Each takes one sitting of twelve to fifteen minutes, needs no account or installation, works offline, and ends with background notes and discussion questions. Made by a law student at National Law University, Delhi, for classroom use anywhere.
+> Three free browser games that let a student live a set reading from the inside instead of memorising it: Franz Kafka's parables "Before the Law" and "An Imperial Message", and Cicero's speech "Pro Archia" as "Save the Poet". Each takes one sitting of twelve to twenty minutes, needs no account or installation, works offline, and ends with background notes and discussion questions. Made by a law student at National Law University, Delhi, for classroom use anywhere.
 
 ## The motive
 
@@ -56,6 +56,7 @@ A theme that is memorised stays on the page. A theme that is lived stays in the 
 
 - **Before the Law** (after Kafka's "Vor dem Gesetz", 1915; the parable told in "The Trial"). First person, 3D, narrated, about fifteen minutes. The player walks to the gate of the Law and can ask, look, offer gifts, study the doorkeeper, or choose "Enter", which is always on screen and never disabled. Every choice costs years. The game ends by telling the player how long they waited and that the gate was never locked.
 - **An Imperial Message** (after Kafka's "Eine kaiserliche Botschaft", 1917). First person, 3D, narrated, about twelve minutes. A dying Emperor whispers a message meant for the player alone. As the messenger, the player memorises it and runs through endless crowds, chambers and courtyards. When Kafka's sentence turns to "if", the world is drawn in pencil and then torn up. The player ends at their own window and dreams the message for themselves. The message is never written anywhere.
+- **Save the Poet** (after Cicero's "Pro Archia", 62 BC). A voiced 3D courtroom, about twenty minutes. The player is Cicero, defending his old teacher, the Greek poet Archias, whose citizenship is challenged under the law of Papius. Eight named jurors react to every choice and a water clock limits every argument. The player builds the speech in Cicero's order (exordium, narratio, proof and refutation, the defence of literature, peroration) and can win the law yet lose the jury, or lose outright. Hands-up class votes are optional. A companion page explains the trial, what each part of the game stands for, and what is original.
 - Each game has a **text-only version** with the same choices, for old devices and for anyone who prefers it.
 - Each game ends with a **reflection page**: a record of what that player did, several readings of the parable, its historical context, discussion questions, and a written response the student can save as a text file. "An Imperial Message" also shows Kafka's German original with notes on key words.
 - A **page for teachers** gives a lesson plan for one period, the discussion questions, and instructions for running the games on a classroom digital board.
@@ -87,24 +88,29 @@ It is not a substitute for reading Kafka. It is meant to be played before the re
 
 ## Pages
 
-- [Home page](${SITE}): the two games, why the project was made, and a tribute to the teacher it was made for
+- [Home page](${SITE}): the two games, how to play, and why the project was made
+- [Acknowledgements](${SITE}acknowledgements.html): a tribute to the teacher the games were made for
 - [For teachers](${SITE}for-teachers.html): lesson plan, discussion questions, classroom board instructions, troubleshooting
 - [Before the Law](${SITE}before-the-law.html): the 3D game
 - [Before the Law, text-only](${SITE}before-the-law-text.html)
 - [An Imperial Message](${SITE}imperial-message.html): the 3D game
 - [An Imperial Message, text-only](${SITE}imperial-message-text.html)
+- [Save the Poet](${SITE}save-the-poet.html): Cicero's Pro Archia, the voiced 3D game
+- [Save the Poet, text-only](${SITE}save-the-poet-text.html)
+- [About Save the Poet](${SITE}save-the-poet-about.html): the trial of 62 BC, what the game's parts mean, what is original
 
 ## Credit
 
 Developed by ${AUTHOR_LINE}, as a project for a course joining law, language, literature and communication. Made in honour of ${PROFESSOR}, Professor at National Law University, Delhi, whose teaching asks students to answer a work of literature by making something of their own.
 
-Suggested citation: Vikas Goyanka, "Playable Readings: Before the Law and An Imperial Message" (National Law University, Delhi, 2026), ${SITE}
+Suggested citation: Vikas Goyanka, "Playable Readings: Before the Law, An Imperial Message and Save the Poet" (National Law University, Delhi, 2026), ${SITE}
 `;
 
-export const README = sizes => `# Playable Readings: feel Kafka, don't just read him
+export const README = sizes => `# Playable Readings: feel the text, don't just read it
 
-Two of Franz Kafka's parables, *Before the Law* and *An Imperial Message*, turned
-into games that a class can play in one period. This folder is the whole
+Two of Franz Kafka's parables, *Before the Law* and *An Imperial Message*, and
+Cicero's speech *Pro Archia*, as *Save the Poet*, turned into games that a class
+can play in one period. This folder is the whole
 published site. It can be opened straight from a disk, copied to a USB stick,
 or put on any web host.
 
@@ -136,22 +142,28 @@ also shown as text.
 
 | File | What it is |
 |---|---|
-| \`index.html\` | The home page: the games, why the project exists, and the tribute to ${PROFESSOR} |
+| \`index.html\` | The home page: the two games first, then how to play and why the project exists |
+| \`acknowledgements.html\` | The tribute to ${PROFESSOR}, the teacher these games were made for |
 | \`for-teachers.html\` | For teachers of any course: a lesson plan, discussion questions, classroom board notes, troubleshooting. Prints cleanly |
 | \`before-the-law.html\` | *Before the Law* in 3D, about fifteen minutes |
 | \`imperial-message.html\` | *An Imperial Message* in 3D, about twelve minutes |
-| \`before-the-law-text.html\`, \`imperial-message-text.html\` | The same two pieces without 3D or narration, for old devices |
+| \`save-the-poet.html\` | *Save the Poet*, Cicero's *Pro Archia* as a voiced 3D trial, about twenty minutes |
+| \`voice-poet/\` | The voices of *Save the Poet*: one MP3 per spoken line, read by \`save-the-poet.html\` from beside it |
+| \`save-the-poet-about.html\` | About *Save the Poet*: the trial of 62 BC, what the game's parts mean, what was made and what is original |
+| \`before-the-law-text.html\`, \`imperial-message-text.html\`, \`save-the-poet-text.html\` | The same three pieces without 3D or narration, for old devices |
 | \`README.md\`, \`LICENSES.md\` | This file, and the full record of what everything is made from |
 | \`llms.txt\` | A plain summary of the project for AI assistants |
 | \`robots.txt\`, \`sitemap.xml\` | For search engines |
 | \`404.html\` | Shown by the web host for an address that does not exist |
-| \`og-image.jpg\`, \`og-before-the-law.jpg\`, \`og-imperial-message.jpg\` | The preview pictures shown when a link is shared |
+| \`og-image.jpg\`, \`og-before-the-law.jpg\`, \`og-imperial-message.jpg\`, \`og-save-the-poet.jpg\`, \`og-acknowledgements.jpg\` | The preview pictures shown when a link is shared |
 | \`favicon.png\`, \`apple-touch-icon.png\` | The tab icon, as files, for search engines and phones |
 | \`.nojekyll\` | Tells GitHub Pages to serve the folder exactly as it is |
 
-Each of the four game pages is a single self-contained file: the 3D engine,
-models, textures, narration and sound are all inside it. A game page can be
-emailed or copied on its own and will still run.
+Each game page is a single self-contained file: the 3D engine, models,
+textures and sound are all inside it, and it can be emailed or copied on its
+own and will still run. The one exception is the narration of *Save the Poet*,
+which is in the \`voice-poet/\` folder beside it: copied without that folder,
+the game still plays, with subtitles and no voices.
 
 ## In a classroom
 
@@ -293,7 +305,7 @@ have the pages indexed sooner.
 There are no accounts, no analytics and no tracking. The game pages make no
 network requests while they run. The optional name, the journal of insights
 and the classroom board setting are kept in the browser on that device and go
-nowhere. The home page links to ${PROFESSOR}'s public profiles; those open
+nowhere. The acknowledgements page links to ${PROFESSOR}'s public profiles; those open
 other websites and need a connection.
 
 ## Credits and licences
@@ -306,7 +318,7 @@ other websites and need a connection.
 - three.js and howler.js are used under the MIT licence; their notices are
   kept inside each game file.
 - Two things are **not** free to reuse, and \`LICENSES.md\` says so: the
-  portrait of ${PROFESSOR} on the home page, and the character models in
+  portrait of ${PROFESSOR} on the acknowledgements page, and the character models in
   *An Imperial Message*, which were made with AI modelling tools whose terms
   depend on the plan they were made under.
 

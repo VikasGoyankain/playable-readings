@@ -1,0 +1,587 @@
+[
+ {
+  "who": "",
+  "text": "A few jurors smile. Not with you. Grattius smirks openly.",
+  "hash": "0444de30"
+ },
+ {
+  "who": "",
+  "text": "On the tribunal sits the praetor, your own brother Quintus. Eight jurors on the benches. Archias, by your side, does not look up.",
+  "hash": "04751715"
+ },
+ {
+  "who": "",
+  "text": "Watch who each one will please. Tap a juror to remind yourself what he cares about.",
+  "hash": "04b7fa4e"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Servius: condemno. He condemns.",
+  "hash": "04c5384e"
+ },
+ {
+  "who": "Grattius",
+  "text": "A citizen of Heraclea? Then show the court Heraclea's register!",
+  "hash": "088a8d67"
+ },
+ {
+  "who": "Cicero",
+  "text": "He sang the war against the Cimbri, and pleased even Marius.",
+  "hash": "0904fd97"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Atilius: absolvo. He acquits.",
+  "hash": "0ccdb37e"
+ },
+ {
+  "who": "Grattius",
+  "text": "His name is in no census. Not one, in twenty-seven years.",
+  "hash": "0d3cc473"
+ },
+ {
+  "who": "",
+  "text": "Condemned, by 8 votes to 0. Under the law of Papius, Archias must leave Rome.",
+  "hash": "0eb9ae41"
+ },
+ {
+  "who": "Archias",
+  "text": "Then I shall go where Greek is read. That is everywhere.",
+  "hash": "10b25500"
+ },
+ {
+  "who": "",
+  "text": "The long list of famous friends made Varro yawn.",
+  "hash": "12155da5"
+ },
+ {
+  "who": "Grattius",
+  "text": "Metellus was his friend. Of course he wrote him in.",
+  "hash": "1401bc95"
+ },
+ {
+  "who": "",
+  "text": "Condemned, by 5 votes to 3. Under the law of Papius, Archias must leave Rome.",
+  "hash": "1505f7c9"
+ },
+ {
+  "who": "",
+  "text": "A knock. Archias comes in: thin, grey, holding a case of papers as if it might break.",
+  "hash": "153b4d49"
+ },
+ {
+  "who": "",
+  "text": "Grattius sits. You have answered him. One more stroke of the law, or leave it there?",
+  "hash": "158c5a8e"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Publius: condemno. He condemns.",
+  "hash": "18ddece1"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Gnaeus: condemno. He condemns.",
+  "hash": "197c9646"
+ },
+ {
+  "who": "Archias",
+  "text": "Antioch, where I was born. Fame in Asia and Greece. Tarentum, Rhegium, Neapolis. Rome at seventeen, the year Marius and Catulus were consuls; the Luculli took me in. Heraclea, with Marcus Lucullus. Then the law of 89, and Metellus. Since then, the wars in the east with Lucius Lucullus: I was with his army at the last census, and in Asia at the one before. I have made my will as a Roman, Marcus. I have inherited as one.",
+  "hash": "1a6c1d86"
+ },
+ {
+  "who": "Grattius",
+  "text": "How brave, to insult a man who is not here.",
+  "hash": "1a6f1636"
+ },
+ {
+  "who": "Cicero",
+  "text": "While he was still a boy, his talent was famous across all of Asia and Greece.",
+  "hash": "1c059e25"
+ },
+ {
+  "who": "Grattius",
+  "text": "Convenient absences.",
+  "hash": "1d6e7bd9"
+ },
+ {
+  "who": "",
+  "text": "Choose your answer from the evidence you hold: up to three cards, 3 water each.",
+  "hash": "1e3f0f95"
+ },
+ {
+  "who": "Cicero",
+  "text": "He sang the war against the Cimbri and the war against Mithridates: our victories, our generals, our name. Greek is read in every nation; through his verse, Rome's glory travels as far as her armies did.",
+  "hash": "23a61811"
+ },
+ {
+  "who": "",
+  "text": "You call your first witness. Marcus Lucullus, senator, rises from the front row. What do you ask him?",
+  "hash": "24e09b0c"
+ },
+ {
+  "who": "",
+  "text": "The legal chain is there, in order: Rome, Heraclea, the declaration before Metellus. Atilius writes it down.",
+  "hash": "250bd378"
+ },
+ {
+  "who": "Archias",
+  "text": "They say Grattius has the law of Papius in one hand and nothing in the other. But nothing is enough, Marcus, when the papers are ash.",
+  "hash": "27e02275"
+ },
+ {
+  "who": "Cicero",
+  "text": "You ask why I love this man? Because he gives my mind rest from the noise of this place, and the strength to speak in it.",
+  "hash": "2996e7ae"
+ },
+ {
+  "who": "Grattius",
+  "text": "So the defence admits it: there is no record. Thank you, Cicero.",
+  "hash": "2e028ae4"
+ },
+ {
+  "who": "",
+  "text": "The crowd roars before Quintus has finished counting. Archias is a Roman citizen, and everyone in the Forum has heard why poets matter.",
+  "hash": "3600f7c5"
+ },
+ {
+  "who": "Cicero",
+  "text": "Appius' lists were careless, Gabinius' corrupt. But Metellus came to court worried over a single erased name. Look at his lists: there is no erasure over Aulus Licinius.",
+  "hash": "378472a8"
+ },
+ {
+  "who": "",
+  "text": "Each juror takes a wax tablet marked A, absolvo, I acquit, and C, condemno, I condemn; scratches out one letter; and drops it into the urn. Quintus reads them out.",
+  "hash": "38ad5880"
+ },
+ {
+  "who": "Grattius",
+  "text": "Judges, this man is a Syrian: a Greek who sings for his supper in the houses of the great. He says he is a citizen of Heraclea; then show me Heraclea's register. He says he is a citizen of Rome; then show me his name in one census, any census, in twenty-seven years. You cannot. The law of Papius was made for exactly this man. Send him home.",
+  "hash": "3af07976"
+ },
+ {
+  "who": "",
+  "text": "Tell the jury who he is. Briefly: every part of the story costs water, and only six will fit.",
+  "hash": "3b2e9501"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Titus Aufidius: condemno. He condemns.",
+  "hash": "3e3a6596"
+ },
+ {
+  "who": "",
+  "text": "Choose the parts, in the order you will tell them.",
+  "hash": "4041f8bf"
+ },
+ {
+  "who": "Cicero",
+  "text": "The great Africanus kept the poet Ennius always beside him. Themistocles, asked which voice he liked best to hear, said: the one that best proclaims my deeds.",
+  "hash": "43c92308"
+ },
+ {
+  "who": "",
+  "text": "Most of the class would stop. The jury's faces say something else.",
+  "hash": "45d3cd44"
+ },
+ {
+  "who": "Grattius",
+  "text": "And the other censuses?",
+  "hash": "48522dda"
+ },
+ {
+  "who": "Archias, whispering",
+  "text": "I made my will by Roman law. I took inheritances from Roman friends. And at the census of Julius and Crassus, Marcus, nobody was counted at all.",
+  "hash": "4ac99c64"
+ },
+ {
+  "who": "Archias",
+  "text": "You spoke for poetry, Marcus. Now poetry owes you a poem.",
+  "hash": "55937024"
+ },
+ {
+  "who": "",
+  "text": "The jury laughs. Then it waits for an ending that does not come: you have finished on a joke.",
+  "hash": "5593ca08"
+ },
+ {
+  "who": "Grattius",
+  "text": "He never truly lived in Rome. A wandering singer has no fixed home.",
+  "hash": "567452dd"
+ },
+ {
+  "who": "",
+  "text": "He gathers his scrolls slowly. Forty years in this city, and the papers that proved it are ash.",
+  "hash": "57f8928f"
+ },
+ {
+  "who": "The clerk",
+  "text": "Appius kept his lists carelessly, sir, and Gabinius' were worthless. Metellus? He once came to court worried about a single erased name.",
+  "hash": "59146ff4"
+ },
+ {
+  "who": "Grattius",
+  "text": "A charming biography. But when, exactly, did this Syrian become a Roman? The defence seems to have forgotten.",
+  "hash": "627b3eb2"
+ },
+ {
+  "who": "Grattius",
+  "text": "Why such love for this little Greek, Cicero? What is a poet to a Roman court?",
+  "hash": "62aae2a4"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“I did it myself. I do not think it, I know it. I did not hear of it, I saw it.”",
+  "hash": "62e534c4"
+ },
+ {
+  "who": "Cicero",
+  "text": "He came to Rome at about seventeen, in the year Marius and Catulus were consuls.",
+  "hash": "64fcccaa"
+ },
+ {
+  "who": "Grattius",
+  "text": "One witness. A friend of the accused, no less.",
+  "hash": "697b54e2"
+ },
+ {
+  "who": "Archias",
+  "text": "Enough is a beautiful word, Marcus.",
+  "hash": "6ab26e8d"
+ },
+ {
+  "who": "Grattius",
+  "text": "You agree the lists are bad, then?",
+  "hash": "6d30aa8a"
+ },
+ {
+  "who": "Grattius",
+  "text": "The defence has nothing to say.",
+  "hash": "6f665ed4"
+ },
+ {
+  "who": "",
+  "text": "Condemned, by 7 votes to 1. Under the law of Papius, Archias must leave Rome.",
+  "hash": "71d34501"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Mamilius: condemno. He condemns.",
+  "hash": "72a2194a"
+ },
+ {
+  "who": "Cicero",
+  "text": "Alexander, standing at the tomb of Achilles, cried out: Fortunate young man, to have found a Homer to sing your courage! Without the Iliad, the same mound that covered his body would have buried his name.",
+  "hash": "740711fe"
+ },
+ {
+  "who": "Archias",
+  "text": "Well? Can you save me?",
+  "hash": "75eae2de"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“It is very fine.” Servius smiles; everyone else waits.",
+  "hash": "766f4b38"
+ },
+ {
+  "who": "",
+  "text": "Acquitted, by 5 votes to 3. Not a triumph, but enough. Archias closes his eyes.",
+  "hash": "7732951e"
+ },
+ {
+  "who": "",
+  "text": "Before Grattius replies, you have a moment. Use it?",
+  "hash": "7a219adc"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Sempronius: condemno. He condemns.",
+  "hash": "7d8c6d66"
+ },
+ {
+  "who": "Cicero",
+  "text": "These studies nourish youth and delight old age; they adorn good fortune and give refuge and comfort in bad; they please us at home and travel with us, through the night and into the country.",
+  "hash": "7fc588d7"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Varro: condemno. He condemns.",
+  "hash": "81b160bb"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“They burned with the record office in the Italian war.”",
+  "hash": "84daa8cc"
+ },
+ {
+  "who": "",
+  "text": "Three envoys from Heraclea step forward in Greek cloaks and lay a sealed tablet before the praetor: the town's official word that Archias is its citizen.",
+  "hash": "85236288"
+ },
+ {
+  "who": "",
+  "text": "The room is not sure. Mamilius looks harder at his census lists.",
+  "hash": "8593e041"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Mamilius: absolvo. He acquits.",
+  "hash": "86ae8fd2"
+ },
+ {
+  "who": "",
+  "text": "The jurors had already made up their minds.",
+  "hash": "88bcce8d"
+ },
+ {
+  "who": "",
+  "text": "Condemned, by 6 votes to 2. Under the law of Papius, Archias must leave Rome.",
+  "hash": "88ee4b91"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Gnaeus: absolvo. He acquits.",
+  "hash": "8c9f1f46"
+ },
+ {
+  "who": "",
+  "text": "You are Marcus Tullius Cicero. Last year you were consul and saved the Republic, or so you like to say. Tomorrow you defend an old man in court.",
+  "hash": "93b71e4b"
+ },
+ {
+  "who": "Cicero",
+  "text": "Ennius calls poets sacred. Rocks and deserts answer a poet's voice. Seven cities quarrel over Homer, a foreigner, each claiming him as its own; and shall Rome drive out a living poet who is hers by law?",
+  "hash": "95c54511"
+ },
+ {
+  "who": "",
+  "text": "Four votes to four. In a Roman court a tie acquits: Archias is saved by the narrowest margin there is. Archias closes his eyes.",
+  "hash": "98084df9"
+ },
+ {
+  "who": "Cicero",
+  "text": "When the law of 89 was passed, he declared himself before the praetor Metellus, within the sixty days.",
+  "hash": "9a35f3ad"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "The court is in session. The charge is under the law of Gaius Papius. Grattius, you may speak.",
+  "hash": "9b2dc852"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Atilius: condemno. He condemns.",
+  "hash": "9c1ca44e"
+ },
+ {
+  "who": "",
+  "text": "The water is low. One last appeal. How do you end?",
+  "hash": "9f495d8e"
+ },
+ {
+  "who": "",
+  "text": "Acquitted, by 6 votes to 2. Not a triumph, but enough. Archias closes his eyes.",
+  "hash": "a3329626"
+ },
+ {
+  "who": "Cicero",
+  "text": "Did not Pompey himself, our Great one, make his historian Theophanes a Roman citizen in front of his assembled army, while the soldiers cheered?",
+  "hash": "a35873ff"
+ },
+ {
+  "who": "Cicero",
+  "text": "You have the law, the word of a town, the testimony of Lucullus and the lists of Metellus. Protect, then, a man who has always honoured you, your generals and the Roman people; let him be seen to be rescued by your humanity, not injured by your severity.",
+  "hash": "a6779a85"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Sempronius: absolvo. He acquits.",
+  "hash": "acec7366"
+ },
+ {
+  "who": "Cicero",
+  "text": "He was born at Antioch, a rich and famous city, full of learning.",
+  "hash": "ad01a82a"
+ },
+ {
+  "who": "Grattius",
+  "text": "Even if he declared himself, those praetors' lists are worthless. Anyone could buy a line in them.",
+  "hash": "b4ca581d"
+ },
+ {
+  "who": "",
+  "text": "The room murmurs: absence is not proof. The undecided jurors take note.",
+  "hash": "b4ea67da"
+ },
+ {
+  "who": "Grattius",
+  "text": "That is not an answer to my question.",
+  "hash": "b531c718"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Varro: absolvo. He acquits.",
+  "hash": "b73cc3af"
+ },
+ {
+  "who": "",
+  "text": "The law is on your side now. You can see it in Atilius' notes, in Mamilius' nod.",
+  "hash": "b93cd728"
+ },
+ {
+  "who": "Cicero",
+  "text": "Tarentum, Rhegium and Neapolis made him their citizen, and honoured him.",
+  "hash": "bb10b455"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Servius: absolvo. He acquits.",
+  "hash": "bc57277e"
+ },
+ {
+  "who": "Cicero",
+  "text": "The Metelli, Catulus, Crassus, Drusus, the Hortensii: the first men of Rome were his friends.",
+  "hash": "c0650ad5"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“All Rome knows him.” The jury already knew that.",
+  "hash": "c2e3283b"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Titus Aufidius: absolvo. He acquits.",
+  "hash": "c52119b6"
+ },
+ {
+  "who": "",
+  "text": "But look at the benches. Varro is checking the sun. Publius is whispering. Titus has folded his arms.",
+  "hash": "c6d619bc"
+ },
+ {
+  "who": "",
+  "text": "Atilius frowns: the dates of Heraclea and the law came out in the wrong order, and he had to untangle them.",
+  "hash": "ca45c02e"
+ },
+ {
+  "who": "Cicero",
+  "text": "If I have any talent, judges (and I know how little it is), my friend Archias has a right to it. Grant me one favour: let me speak of literature, as befits a poet's defence.",
+  "hash": "cae1c5bd"
+ },
+ {
+  "who": "Cicero",
+  "text": "At the last census he was with Lucullus' army; at the one before, in Asia; at the first, no one was counted at all. And a census only shows who claimed citizenship: this man made his will and took inheritances as a Roman.",
+  "hash": "ce3d4016"
+ },
+ {
+  "who": "",
+  "text": "Rome, 62 BC. Night. A lamp, a table, a hundred scrolls.",
+  "hash": "d2605ef0"
+ },
+ {
+  "who": "",
+  "text": "The water clock is turned for you. Everyone is looking at you. How do you begin?",
+  "hash": "d2c76db9"
+ },
+ {
+  "who": "Cicero",
+  "text": "The Luculli took him into their house, and it has been his home ever since.",
+  "hash": "d4cf2439"
+ },
+ {
+  "who": "Cicero",
+  "text": "A wretched poet once handed Sulla a few verses in his praise. Sulla paid him at once, on one condition: that he never write anything again. If Sulla rewarded even a bad poet, what would he have given Archias?",
+  "hash": "d605da70"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Publius: absolvo. He acquits.",
+  "hash": "d687fd71"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“With my brother's army in the east.”",
+  "hash": "d97e05c4"
+ },
+ {
+  "who": "Grattius",
+  "text": "...Forty years in one house. Very well.",
+  "hash": "d9daada9"
+ },
+ {
+  "who": "Cicero",
+  "text": "It is absurd to say nothing of the proof we have, and demand the proof no one can have.",
+  "hash": "df1cba91"
+ },
+ {
+  "who": "",
+  "text": "Most of the class would go on.",
+  "hash": "dfed4202"
+ },
+ {
+  "who": "Cicero",
+  "text": "With Marcus Lucullus beside him, he was enrolled as a citizen of Heraclea.",
+  "hash": "e09d580e"
+ },
+ {
+  "who": "",
+  "text": "He lays the case file on your table. Read it, or don’t: tomorrow you will only have what you know.",
+  "hash": "e263c668"
+ },
+ {
+  "who": "",
+  "text": "You go over the records again. Two jurors are now openly not listening.",
+  "hash": "e4ae6b5b"
+ },
+ {
+  "who": "",
+  "text": "Now speak for literature. Choose four arguments, and put them in the order you will make them. 6 water each.",
+  "hash": "e5f9898b"
+ },
+ {
+  "who": "Cicero",
+  "text": "Others spend their free hours on games and dice and parties. I spend mine on books, and from them I come back to the courts stronger, and ready for my friends.",
+  "hash": "e6d7460b"
+ },
+ {
+  "who": "Cicero",
+  "text": "He went east with Lucius Lucullus, and sang the war against Mithridates.",
+  "hash": "e8b1b488"
+ },
+ {
+  "who": "",
+  "text": "Each question costs water. Ask well.",
+  "hash": "eb5f0e70"
+ },
+ {
+  "who": "Marcus Lucullus",
+  "text": "“I was.”",
+  "hash": "ecaae2e6"
+ },
+ {
+  "who": "Quintus, the praetor",
+  "text": "Keep to the point, Cicero.",
+  "hash": "f2151284"
+ },
+ {
+  "who": "Grattius",
+  "text": "Tarentum, Neapolis? Then let Tarentum keep him!",
+  "hash": "fbd84996"
+ },
+ {
+  "who": "",
+  "text": "The Forum in spring sunlight. The Rostra, the Temple of Castor, and a crowd that has come to watch a famous man speak.",
+  "hash": "fce648c6"
+ },
+ {
+  "who": "Grattius",
+  "text": "Witnesses. Always witnesses. Where is the paper?",
+  "hash": "fe59c650"
+ },
+ {
+  "who": "",
+  "text": "Heads come up along the benches. The crowd behind them pushes closer.",
+  "hash": "fed52b29"
+ }
+]
