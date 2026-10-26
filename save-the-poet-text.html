@@ -1,0 +1,1286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Save the Poet, text-only: Cicero’s Pro Archia as interactive fiction</title>
+<meta name="description" content="The text-only version of Save the Poet: the same trial, jury, water clock and verdict, without 3D or voices. It runs on any device, however old.">
+<meta name="author" content="Vikas Goyanka">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0a090b">
+<link rel="canonical" href="https://vikasgoyankain.github.io/playable-readings/save-the-poet-text.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Playable Readings">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Save the Poet, text-only: Cicero’s Pro Archia as interactive fiction">
+<meta property="og:description" content="The text-only version of Save the Poet: the same trial, jury, water clock and verdict, without 3D or voices. It runs on any device, however old.">
+<meta property="og:url" content="https://vikasgoyankain.github.io/playable-readings/save-the-poet-text.html">
+<meta property="og:image" content="https://vikasgoyankain.github.io/playable-readings/og-save-the-poet.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Save the Poet: a laurel, the court’s water clock, and the wax tablets of the verdict.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Save the Poet, text-only: Cicero’s Pro Archia as interactive fiction">
+<meta name="twitter:description" content="The text-only version of Save the Poet: the same trial, jury, water clock and verdict, without 3D or voices. It runs on any device, however old.">
+<meta name="twitter:image" content="https://vikasgoyankain.github.io/playable-readings/og-save-the-poet.jpg">
+<meta name="twitter:image:alt" content="Save the Poet: a laurel, the court’s water clock, and the wax tablets of the verdict.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2213%22%20fill%3D%22%230a090b%22%2F%3E%3Cpath%20d%3D%22M21%2055V28a11%2011%200%200%201%2022%200v27z%22%20fill%3D%22%23ffd690%22%20fill-opacity%3D%22.55%22%2F%3E%3Cpath%20d%3D%22M17%2055V28a15%2015%200%200%201%2030%200v27%22%20fill%3D%22none%22%20stroke%3D%22%23e8bd6a%22%20stroke-width%3D%224.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["VideoGame","LearningResource"],"@id":"https://vikasgoyankain.github.io/playable-readings/save-the-poet-text.html#game","name":"Save the Poet (text-only)","url":"https://vikasgoyankain.github.io/playable-readings/save-the-poet-text.html","description":"Play Cicero’s Pro Archia: you are Cicero, defending your old teacher, the Greek poet Archias, before eight Roman jurors and a water clock. Win the law, then win the room. A free, voiced 3D courtroom game, about twenty minutes.","inLanguage":"en","author":{"@type":"Person","name":"Vikas Goyanka","affiliation":{"@type":"CollegeOrUniversity","name":"National Law University, Delhi"}},"isAccessibleForFree":true,"isBasedOn":{"@type":"CreativeWork","name":"Pro Archia Poeta","alternateName":"For the Poet Archias","dateCreated":"-0061","inLanguage":"la","author":{"@type":"Person","name":"Marcus Tullius Cicero"}},"about":{"@type":"CreativeWork","name":"Pro Archia Poeta","alternateName":"For the Poet Archias","dateCreated":"-0061","inLanguage":"la","author":{"@type":"Person","name":"Marcus Tullius Cicero"}},"genre":["Interactive fiction","Educational game"],"gamePlatform":"Web browser","applicationCategory":"Game","operatingSystem":"Any","playMode":"SinglePlayer","timeRequired":"PT20M","learningResourceType":"Interactive game","educationalUse":["Classroom activity","Discussion","Self study"],"educationalLevel":["Senior secondary","Undergraduate"],"audience":{"@type":"EducationalAudience","educationalRole":["student","teacher"]},"teaches":"Classical rhetoric and the structure of a legal speech, through Cicero’s defence of Archias (62 BC), played first-hand","image":"https://vikasgoyankain.github.io/playable-readings/og-save-the-poet.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}]}</script>
+<style>
+:root{
+  --bg:#0f0c09;--panel:#18130e;--panel2:#211a12;--ink:#e6dccb;--soft:#b8ab95;--dim:#7f7564;--line:#3a3024;
+  --gold:#e8bd6a;--gold2:#f6dea0;--red:#c96a4a;--green:#9fbf7a;--paper:#efe4cc;
+}
+*{box-sizing:border-box;}
+[hidden]{display:none!important;}
+html{-webkit-text-size-adjust:100%;background:var(--bg);}
+body{margin:0;color:var(--ink);background:radial-gradient(ellipse 90% 60% at 50% -10%,rgba(232,189,106,.12),transparent 70%) no-repeat,var(--bg);
+  font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;font-size:clamp(1rem,.94rem + .4vw,1.12rem);line-height:1.7;
+  -webkit-font-smoothing:antialiased;min-height:100vh;}
+button{font:inherit;color:inherit;}
+.sans{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;}
+.k{font:.66rem/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);}
+
+/* ---------- title ---------- */
+#title{min-height:100vh;display:grid;place-items:center;padding:2rem 1.2rem;text-align:center;}
+#title .tcard{max-width:36rem;}
+#title h1{margin:.6rem 0 .5rem;font-weight:normal;font-size:clamp(2.6rem,9vw,4.4rem);line-height:1;color:#fbf1dc;}
+#title .sub{margin:0 auto 1.4rem;max-width:30rem;font-style:italic;color:var(--gold);font-size:1.05rem;}
+#title .sa{margin:0 0 .2rem;color:var(--gold2);font-size:1.15rem;}
+#title .gl{margin:0 0 2rem;font-size:.85rem;color:var(--dim);font-style:italic;}
+#title .role{margin:0 auto 1.8rem;max-width:30rem;color:var(--soft);}
+.opts{display:flex;flex-direction:column;gap:.5rem;align-items:center;margin:1.4rem 0 0;}
+.opts label{display:flex;gap:.6rem;align-items:center;cursor:pointer;color:var(--soft);font:.8rem/1.4 ui-sans-serif,system-ui,sans-serif;}
+.opts input{accent-color:#e8bd6a;width:1.05rem;height:1.05rem;}
+.big{display:inline-block;border:1px solid var(--gold);background:rgba(232,189,106,.16);color:#fff3dc;padding:1rem 2.6rem;min-height:3.2rem;border-radius:3px;cursor:pointer;
+  font:.8rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;}
+.big:hover,.big:focus-visible{background:rgba(232,189,106,.3);}
+.quiet{border:0;background:none;color:var(--dim);cursor:pointer;padding:.8rem .6rem;font:.7rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;}
+.quiet:hover,.quiet:focus-visible{color:var(--ink);}
+
+/* ---------- court ---------- */
+#court{max-width:62rem;margin:0 auto;padding:0 1rem 2rem;}
+#bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:1rem;padding:.6rem .2rem;background:linear-gradient(var(--bg) 70%,rgba(15,12,9,0));}
+#act{flex:1;font:.7rem/1.3 ui-sans-serif,system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);}
+#act b{display:block;font:italic 1.05rem/1.3 Georgia,serif;letter-spacing:0;text-transform:none;color:var(--ink);}
+#clock{display:flex;align-items:center;gap:.5rem;font:.66rem/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);}
+#clock svg{width:2rem;height:2.6rem;}
+#clock.low{color:var(--red);}
+#bar .tog{border:1px solid var(--line);background:none;border-radius:3px;padding:.45rem .6rem;cursor:pointer;color:var(--soft);font:.62rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;}
+#bar .tog[aria-pressed=true]{border-color:var(--gold);color:var(--gold);}
+
+/* the jury */
+#jury{display:grid;grid-template-columns:repeat(8,1fr);gap:.4rem;margin:.4rem 0 .6rem;}
+.j{position:relative;text-align:center;padding:.4rem .2rem .45rem;border:1px solid var(--line);border-radius:6px;background:var(--panel);cursor:help;transition:border-color .5s,background .5s,transform .3s;}
+.j svg{display:block;width:100%;max-width:4.2rem;height:auto;margin:0 auto;}
+.j .n{display:block;font:.68rem/1.2 ui-sans-serif,system-ui,sans-serif;color:var(--ink);margin-top:.15rem;}
+.j .o{display:block;font:.55rem/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);}
+.j .lean{display:block;height:4px;border-radius:2px;background:#2b241b;margin:.35rem .3rem 0;overflow:hidden;}
+.j .lean i{display:block;height:100%;width:50%;background:linear-gradient(90deg,#8a5a3c,#e8bd6a);transition:width .8s;}
+.j.up{border-color:var(--green);background:#1b1e12;}
+.j.down{border-color:var(--red);background:#22140f;}
+.j .d{position:absolute;top:.15rem;right:.3rem;font:700 .7rem/1 ui-sans-serif,system-ui,sans-serif;opacity:0;transition:opacity .4s;}
+.j.up .d{opacity:1;color:var(--green);}
+.j.down .d{opacity:1;color:var(--red);}
+/* the night before: no court yet, so no jury and no water clock */
+body.night #jury,body.night #tip,body.night #murmur,body.night #clock{visibility:hidden}
+#tip{min-height:1.6rem;margin:0 0 .4rem;font:.78rem/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--dim);text-align:center;}
+#murmur{min-height:1.8rem;text-align:center;font-style:italic;color:var(--soft);margin:0 0 .6rem;transition:opacity .4s;}
+#murmur b{font-style:normal;font-weight:normal;color:var(--gold);}
+
+/* the stage */
+#stage{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:1.4rem 1.6rem 1.2rem;min-height:18rem;}
+#lines p{margin:0 0 .9rem;opacity:0;transform:translateY(6px);transition:opacity .6s,transform .6s;text-wrap:pretty;}
+#lines p.in{opacity:1;transform:none;}
+#lines p.nar{color:var(--soft);font-style:italic;}
+#lines p .who{display:block;font:.62rem/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.15rem;font-style:normal;}
+#lines p.gr .who{color:var(--red);}
+#lines p.quote{border-left:2px solid var(--gold);padding-left:.9rem;color:#fbf1dc;}
+#lines p .la{display:block;margin-top:.3rem;color:var(--gold2);font-size:.92em;}
+body:not(.latin) #lines .la{display:none;}
+#lines p.ins{font:.8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--gold);border:1px solid rgba(232,189,106,.4);border-radius:4px;padding:.55rem .8rem;background:rgba(232,189,106,.07);}
+#lines p.ins b{color:#fbf1dc;}
+#panel{margin-top:.6rem;}
+.choices{display:flex;flex-direction:column;gap:.5rem;}
+.ch{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--panel2);border-radius:5px;padding:.8rem 1rem;cursor:pointer;transition:border-color .3s,background .3s;}
+.ch:hover,.ch:focus-visible{border-color:var(--gold);background:#2a2116;}
+.ch b{display:block;font-weight:normal;color:#fbf1dc;}
+.ch span{display:block;font-size:.88rem;color:var(--soft);}
+.ch small{display:block;margin-top:.2rem;font:.66rem/1.3 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;color:var(--dim);}
+.ch[disabled]{opacity:.4;cursor:default;}
+.go{display:flex;gap:.8rem;align-items:center;justify-content:flex-end;flex-wrap:wrap;margin-top:1rem;}
+.next{border:1px solid var(--gold);background:rgba(232,189,106,.14);color:#fff3dc;border-radius:3px;padding:.75rem 1.4rem;min-height:2.8rem;cursor:pointer;
+  font:.72rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;}
+.next:hover,.next:focus-visible{background:rgba(232,189,106,.28);}
+.next[disabled]{opacity:.35;cursor:default;}
+.hint{font:.75rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--dim);margin:.2rem 0 .6rem;}
+
+/* cards */
+.deck{display:flex;flex-wrap:wrap;gap:.5rem;}
+.card{position:relative;flex:1 1 13rem;max-width:20rem;text-align:left;border:1px solid var(--line);background:#efe4cc;color:#2a2217;border-radius:5px;padding:.6rem .75rem .65rem;cursor:pointer;
+  font-size:.9rem;line-height:1.4;transition:transform .2s,box-shadow .2s,opacity .3s;box-shadow:0 2px 0 #00000055;}
+.card b{display:block;font:700 .82rem/1.3 ui-sans-serif,system-ui,sans-serif;color:#5a3d12;margin-bottom:.2rem;}
+.card:hover,.card:focus-visible{transform:translateY(-2px);box-shadow:0 6px 14px #00000066;}
+.card.on{outline:3px solid var(--gold);background:#fff6df;}
+.card.star::after{content:"\2605";position:absolute;top:.35rem;right:.5rem;color:#b07d1e;}
+.card .cost{display:block;margin-top:.25rem;font:.62rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8a7a5c;}
+.slots{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0;min-height:2.6rem;align-items:center;}
+.slot{border:1px dashed var(--gold);border-radius:4px;padding:.4rem .6rem;font:.78rem/1.3 ui-sans-serif,system-ui,sans-serif;color:var(--ink);background:rgba(232,189,106,.06);cursor:pointer;}
+.slot i{font-style:normal;color:var(--gold);margin-right:.35rem;}
+.slot.empty{color:var(--dim);cursor:default;}
+
+/* the case file */
+.docs{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;}
+.doc{text-align:left;border:1px solid #c9b88f;background:var(--paper);color:#2a2217;border-radius:4px;padding:.8rem;cursor:pointer;font-size:.88rem;line-height:1.45;}
+.doc b{display:block;font:700 .75rem/1.3 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#5a3d12;margin-bottom:.3rem;}
+.doc.read{opacity:.7;}
+.doc .got{display:block;margin-top:.4rem;font:.7rem/1.3 ui-sans-serif,system-ui,sans-serif;color:#6d5320;}
+
+/* class vote */
+.vote{border:1px solid var(--gold);border-radius:6px;padding:1rem 1.1rem;background:rgba(232,189,106,.07);}
+.vote h3{margin:0 0 .4rem;font-weight:normal;font-size:1.25rem;color:#fbf1dc;}
+.vote .row{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin-top:.7rem;font:.85rem/1.3 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+.vote input[type=number]{width:5rem;padding:.45rem;border:1px solid var(--line);background:#120e0a;color:var(--ink);border-radius:3px;font:inherit;}
+
+/* verdict */
+.tablets{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:.6rem 0;}
+.tab{border:1px solid var(--line);border-radius:5px;padding:.7rem .6rem;text-align:center;background:#2a2013;opacity:0;transform:scale(.9);transition:opacity .5s,transform .5s;}
+.tab.in{opacity:1;transform:none;}
+.tab .L{display:block;font:700 2.2rem/1 Georgia,serif;}
+.tab.A .L{color:var(--gold);}
+.tab.C .L{color:var(--red);}
+.tab .n{display:block;font:.72rem/1.3 ui-sans-serif,system-ui,sans-serif;color:var(--ink);margin-top:.2rem;}
+.tab .r{display:block;font-size:.78rem;font-style:italic;color:var(--soft);margin-top:.3rem;line-height:1.35;}
+.tally{text-align:center;font-size:1.4rem;color:#fbf1dc;margin:.6rem 0;}
+
+/* reflection */
+#reflect{max-width:44rem;margin:0 auto;padding:2.4rem 1.2rem 4rem;}
+#reflect h2{font-weight:normal;font-size:clamp(1.6rem,5vw,2.3rem);margin:0 0 .4rem;color:#fbf1dc;}
+#reflect h3{margin:2.4rem 0 .8rem;font:.7rem/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:normal;}
+#reflect p,#reflect li{color:var(--soft);text-wrap:pretty;}
+#reflect b{font-weight:normal;color:#fbf1dc;}
+#reflect table{width:100%;border-collapse:collapse;font-size:.92rem;}
+#reflect td,#reflect th{border-bottom:1px solid var(--line);padding:.55rem .5rem .55rem 0;vertical-align:top;text-align:left;}
+#reflect th{font:.62rem/1.3 ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:normal;}
+#reflect .la{color:var(--gold2);font-style:italic;}
+#reflect textarea{width:100%;min-height:8rem;background:#120e0a;color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:.8rem;font:inherit;}
+#reflect .tribute{border:1px solid rgba(232,189,106,.4);border-radius:6px;padding:1rem 1.2rem;background:rgba(232,189,106,.06);}
+.ins-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.4rem;}
+.ins-list li{border:1px solid var(--line);border-radius:4px;padding:.5rem .7rem;font-size:.88rem;}
+.ins-list li.got{border-color:rgba(232,189,106,.5);}
+.ins-list li.got b{color:var(--gold);}
+.ins-list li span{display:block;font-size:.8rem;color:var(--dim);}
+
+@media (max-width:760px){
+  #jury{grid-template-columns:repeat(4,1fr);}
+  .docs{grid-template-columns:1fr;}
+  .tablets{grid-template-columns:repeat(2,1fr);}
+  .ins-list{grid-template-columns:1fr;}
+  #stage{padding:1.1rem 1rem 1rem;}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+
+/* classroom board */
+html.board{font-size:clamp(20px,1.25vw,44px)}
+html.board body{font-size:1rem}
+[data-fs]{display:none!important}
+html.board [data-fs]{display:inline-block!important}
+@media (max-width:1100px){html:not(.board) [data-board]{display:none!important}}
+.board-corner{position:fixed;top:.5rem;left:.6rem;z-index:6;display:flex;gap:.2rem}
+.board-corner button{border:0;background:none;cursor:pointer;padding:.6rem .5rem;min-height:2.4rem;
+ font:.62rem/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#5a534a}
+.board-corner button:hover,.board-corner button:focus-visible{color:#b9ae9c}
+html.board .board-corner button{color:#8d8475}
+</style>
+<script>(function(){
+var d=document,r=d.documentElement,q=/[?&]board=([01])/.exec(location.search),s=null,on;
+try{s=localStorage.getItem('board')}catch(e){}
+on=q?q[1]==='1':s!==null?s==='1':(Math.max(screen.width||0,window.innerWidth||0)>=1600&&navigator.maxTouchPoints>0);
+function keep(){try{localStorage.setItem('board',on?'1':'0')}catch(e){}}
+if(q)keep();
+r.classList.toggle('board',on);
+function fs(){return d.fullscreenElement||d.webkitFullscreenElement}
+function paint(){
+  var i,h,m,l=d.querySelectorAll('[data-board]');
+  r.classList.toggle('board',on);
+  for(i=0;i<l.length;i++){l[i].textContent=l[i].getAttribute('data-board')+(on?': on':': off');l[i].setAttribute('aria-pressed',on?'true':'false')}
+  l=d.querySelectorAll('[data-fs]');
+  for(i=0;i<l.length;i++)l[i].textContent=fs()?'Exit full screen':'Full screen';
+  l=d.querySelectorAll('a[href]');
+  for(i=0;i<l.length;i++){h=l[i].getAttribute('href');m=/^([a-z-]+[.]html)([?][^#]*)?(#.*)?$/.exec(h);
+    if(m)l[i].setAttribute('href',m[1]+(on?'?board=1':'')+(m[3]||''))}
+}
+function btn(label,attr,cls){var b=d.createElement('button');b.type='button';b.setAttribute(attr,label);if(cls)b.className=cls;return b}
+function ready(){
+  var set=d.getElementById('settings'),slot=d.querySelector('[data-board-slot]'),card,c;
+  var canFs=r.requestFullscreen||r.webkitRequestFullscreen;
+  if(set){
+    set.appendChild(btn('Board','data-board'));if(canFs)set.appendChild(btn('','data-fs'));
+    card=d.querySelector('#intro .links')||d.querySelector('#intro .card');
+    if(card)card.appendChild(btn('Classroom board','data-board','quiet'));
+  }else if(slot){
+    slot.appendChild(btn('Classroom board','data-board'));if(canFs)slot.appendChild(btn('','data-fs'));
+  }else{
+    c=d.createElement('div');c.className='board-corner';
+    c.appendChild(btn('Classroom board','data-board'));if(canFs)c.appendChild(btn('','data-fs'));
+    d.body.appendChild(c);
+  }
+  d.addEventListener('click',function(e){
+    var t=e.target.closest?e.target.closest('[data-board],[data-fs]'):null,p;
+    if(!t)return;
+    if(t.hasAttribute('data-board')){on=!on;keep()}
+    else if(fs()){(d.exitFullscreen||d.webkitExitFullscreen).call(d)}
+    else{p=(r.requestFullscreen||r.webkitRequestFullscreen).call(r);if(p&&p.catch)p.catch(function(){})}
+    paint();
+  });
+  d.addEventListener('fullscreenchange',paint);d.addEventListener('webkitfullscreenchange',paint);
+  paint();
+}
+if(d.readyState==='loading')d.addEventListener('DOMContentLoaded',ready);else ready();
+})();</script>
+</head>
+<body>
+
+<section id="title">
+  <div class="tcard">
+    <p class="k">Rome &#183; 62 BC &#183; Cicero, Pro Archia</p>
+    <h1>Save the Poet</h1>
+    <p class="sub">Cicero&#8217;s <i>Pro Archia</i>, played: an offering to the idea that learning sets us free</p>
+    <p class="sa" lang="sa">सा विद्या या विमुक्तये</p>
+    <p class="gl">That alone is knowledge which sets us free.</p>
+    <p class="role">You are Marcus Tullius Cicero. Tomorrow your old teacher, the Greek poet Archias, stands trial. If you lose, he is driven out of Rome. The jury is watching you. So is the water clock.</p>
+    <button class="big" id="begin" type="button">Begin the trial</button>
+    <div class="opts">
+      <label><input type="checkbox" id="optClass"> Playing with a class: pause for hands-up votes</label>
+      <label><input type="checkbox" id="optShort"> Short trial (about 8 minutes)</label>
+      <label><input type="checkbox" id="optLatin" checked> Show Cicero&#8217;s Latin under key lines</label>
+    </div>
+    <p style="margin-top:1.6rem"><a class="quiet" href="index.html">&#8592; Home page</a></p>
+  </div>
+</section>
+
+<section id="court" hidden>
+  <div id="bar">
+    <div id="act"></div>
+    <div id="clock" title="The water clock: every argument costs time">
+      <svg viewBox="0 0 40 52" aria-hidden="true"><path d="M8 4h24l-3 40a5 5 0 0 1-5 4h-8a5 5 0 0 1-5-4z" fill="none" stroke="#e8bd6a" stroke-width="1.6"/>
+        <clipPath id="vessel"><path d="M8 4h24l-3 40a5 5 0 0 1-5 4h-8a5 5 0 0 1-5-4z"/></clipPath>
+        <rect id="water" x="0" y="4" width="40" height="44" fill="#6f9fbf" opacity=".75" clip-path="url(#vessel)"/></svg>
+      <span>Water<br><b id="waterN">100</b></span>
+    </div>
+    <button class="tog" id="insBtn" type="button" title="Insights found">Insights <span id="insN">0</span>/12</button>
+  </div>
+  <div id="jury" aria-label="The jury"></div>
+  <p id="tip">Tap a juror to see what moves him.</p>
+  <p id="murmur" aria-live="polite"></p>
+  <div id="stage">
+    <div id="lines" aria-live="polite"></div>
+    <div id="panel"></div>
+  </div>
+</section>
+
+<section id="reflect" hidden></section>
+
+<script>
+(function(){
+"use strict";
+
+/* ================================================================
+   T: every word the game says. Our own English, written from Cicero's
+   Latin (public domain); no published translation is quoted.
+   ================================================================ */
+var T = {
+  jurors: [
+    {id:"sem", name:"Sempronius", order:"Senator", trait:"An old senator. Loves Greek learning and dignity; dislikes cheap jokes.",
+      p:40, w:55, a:78, up:"Sempronius inclines his white head.", down:"Sempronius purses his lips.", bored:"Sempronius' eyes drift to the temple roof."},
+    {id:"var", name:"Varro", order:"Equestrian", trait:"A tax contractor. Wants it short, practical, and over by lunch.",
+      p:40, w:45, a:65, up:"Varro grunts, almost pleased.", down:"Varro rolls his eyes at his neighbour.", bored:"Varro is squinting at the sun to tell the hour."},
+    {id:"tit", name:"Titus Aufidius", order:"Veteran", trait:"Fought under Marius. Loves Rome's victories; distrusts Greeks.",
+      p:40, w:34, a:72, up:"The old soldier nods, once, hard.", down:"Titus mutters something about Greeks.", bored:"Titus folds his arms and stares at nothing."},
+    {id:"ati", name:"Atilius", order:"Jurist", trait:"A strict lawyer. Wants documents and exact law, not feelings.",
+      p:34, w:45, a:82, up:"Atilius writes a note and underlines it.", down:"Atilius shakes his head slowly.", bored:"Atilius has stopped writing."},
+    {id:"pub", name:"Publius", order:"Young noble", trait:"Ambitious. Dreams of being remembered; bored by old men's stories.",
+      p:40, w:45, a:62, up:"Publius leans forward, eyes bright.", down:"Publius smirks to his friends.", bored:"Publius is whispering behind his hand."},
+    {id:"gna", name:"Gnaeus", order:"Pompey's man", trait:"Loyal to Pompey; any praise of Lucullus annoys him.",
+      p:38, w:26, a:72, up:"Even Gnaeus allows himself a small nod.", down:"Gnaeus glares at you.", bored:"Gnaeus is looking for Grattius' eye."},
+    {id:"mam", name:"Mamilius", order:"Treasury", trait:"A treasury official. Trusts lists, numbers and the census.",
+      p:36, w:45, a:74, up:"Mamilius ticks something off on his fingers.", down:"Mamilius frowns at the gap in the census.", bored:"Mamilius is counting the columns of the temple."},
+    {id:"ser", name:"Servius", order:"Lover of verse", trait:"Reads poetry for pleasure. Hates dry technicalities.",
+      p:40, w:64, a:66, up:"Servius smiles openly.", down:"Servius looks away, disappointed.", bored:"Servius sighs into his toga."}
+  ],
+
+  cards: {
+    luc:{t:"Testimony of Marcus Lucullus", d:"He was there at Heraclea. He did not hear of the enrolment: he arranged it himself."},
+    env:{t:"The envoys of Heraclea", d:"Leading men of the town, here in Rome with the town's sealed, official word."},
+    fire:{t:"The record office fire", d:"Heraclea's registers burned in the Italian War. No one can produce them."},
+    res:{t:"Years in Rome", d:"Archias has lived in Rome since boyhood, in the house of the Luculli; all he owns is here."},
+    met:{t:"The lists of Metellus", d:"He declared himself before the praetor Metellus, whose lists were exact."},
+    app:{t:"Appius and Gabinius", d:"Other praetors' lists were careless or corrupt. Metellus once worried over a single erased name."},
+    oth:{t:"Other cities' citizenship", d:"Tarentum, Rhegium, Locri and Neapolis also made him a citizen."},
+    cam:{t:"On campaign", d:"At the last census he was with Lucius Lucullus' army; at the one before, in Asia with Lucullus."},
+    emp:{t:"The empty census", d:"At the census of Julius and Crassus, no one at all was registered."},
+    liv:{t:"Lived as a citizen", d:"He made wills under Roman law, inherited from Roman citizens, and was put forward for a treasury reward."}
+  },
+
+  insights: [
+    ["debt","A debt","Cicero opens by saying that whatever skill he has, he owes to this man."],
+    ["perm","Asking permission","The exordium wins the audience before the argument begins."],
+    ["brief","Brief, clear, believable","The classical rule for telling the story of a case."],
+    ["memory","Memory against paper","When records burn, living witnesses can stand in their place."],
+    ["records","Not all records are equal","A careful register is worth more than a careless one."],
+    ["absence","Absence is not evidence","Missing from a list does not prove a man is not who he says."],
+    ["proof","Proof is not persuasion","You can win the argument and still lose the jury."],
+    ["beyond","Beyond the case","Cicero's turn: speaking about why literature matters."],
+    ["jury","Know your jury","Each juror listens for different things."],
+    ["order","Order matters","The same arguments, in a better order, persuade more."],
+    ["vanity","The danger of vanity","Praising yourself costs trust, even when it is true."],
+    ["humanity","Rescued by humanity","Cicero ends with law and kindness together."]
+  ]
+};
+
+/* ================================================================
+   state
+   ================================================================ */
+var S, opts = {cls:false, short:false};
+var $ = function(id){ return document.getElementById(id); };
+/* what happens in the trial, announced for anyone listening (the 3D Forum) */
+function emit(type, data){ try { window.dispatchEvent(new CustomEvent("poet", {detail:{type:type, data:data}})); } catch(e){} }
+var linesEl = $("lines"), panel = $("panel");
+
+function reset(){
+  S = {water:110, cards:{}, ins:{}, flags:{}, log:[], jurors:{}, act:"", order4:[], story:[], votes:null};
+  T.jurors.forEach(function(j){ S.jurors[j.id] = {p:j.p, w:j.w, a:j.a}; });
+}
+var J = function(id){ return T.jurors.filter(function(j){ return j.id === id; })[0]; };
+var clamp = function(v){ return Math.max(0, Math.min(100, v)); };
+var score = function(id){ var s = S.jurors[id]; return 0.4*s.p + 0.35*s.w + 0.25*s.a - (s.a < 30 ? 4 : 0); };
+var ACQUIT = 62;
+
+/* ---------- the jury, drawn ---------- */
+function face(id){
+  var s = S.jurors[id], w = s.w, a = s.a;
+  var curve = w > 62 ? 7 : w > 50 ? 3 : w > 38 ? 0 : -6;            /* the mouth: warmth */
+  var lid = a > 55 ? 0 : a > 32 ? 3 : 5.5;                          /* the eyelids: attention */
+  var skin = ["#c99a76","#b98864","#a8774f","#d1a684","#c08f6a","#b07e57","#c9a07a","#bb8b66"][T.jurors.indexOf(J(id))];
+  var eye = function(x){
+    return '<ellipse cx="'+x+'" cy="25" rx="3" ry="'+(3-lid/2.2).toFixed(2)+'" fill="#1d150e"/>' +
+      (lid ? '<path d="M'+(x-4)+' '+(22+lid)+'h8" stroke="#6b4a32" stroke-width="1.4"/>' : '');
+  };
+  return '<svg viewBox="0 0 56 60" aria-hidden="true">' +
+    '<path d="M6 60c2-12 10-17 22-17s20 5 22 17z" fill="#ece3d1"/>' +
+    '<ellipse cx="28" cy="27" rx="15" ry="18" fill="'+skin+'"/>' +
+    '<path d="M13 22c1-10 8-15 15-15s14 5 15 15c-3-5-8-8-15-8s-12 3-15 8z" fill="#3b2c20" opacity=".85"/>' +
+    eye(22) + eye(34) +
+    '<path d="M21 '+(37 - curve/3).toFixed(1)+'q7 '+curve+' 14 0" fill="none" stroke="#5a2f22" stroke-width="1.8" stroke-linecap="round"/>' +
+    (a < 30 ? '<text x="44" y="12" font-size="9" fill="#b8ab95" font-family="sans-serif">z</text>' : '') +
+    '</svg>';
+}
+function drawJury(deltas){
+  var el = $("jury");
+  if (!el.children.length){
+    T.jurors.forEach(function(j){
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "j"; b.id = "j-" + j.id;
+      b.addEventListener("click", function(){ $("tip").innerHTML = "<b>" + j.name + "</b> (" + j.order + "): " + j.trait; });
+      el.appendChild(b);
+    });
+  }
+  T.jurors.forEach(function(j){
+    var b = $("j-" + j.id), d = deltas && deltas[j.id] || 0;
+    b.innerHTML = '<span class="d">' + (d > 0 ? "&#9650;" : d < 0 ? "&#9660;" : "") + '</span>' + face(j.id) +
+      '<span class="n">' + j.name + '</span><span class="o">' + j.order + '</span>' +
+      '<span class="lean" title="How convinced he is by the law"><i style="width:' + S.jurors[j.id].p + '%"></i></span>';
+    b.classList.toggle("up", d > 1.5); b.classList.toggle("down", d < -1.5);
+    b.setAttribute("aria-label", j.name + ", " + j.order + ". " + mood(j.id));
+  });
+  if (deltas) setTimeout(function(){ T.jurors.forEach(function(j){ $("j-"+j.id).classList.remove("up","down"); }); }, 1800);
+}
+function mood(id){
+  var s = S.jurors[id];
+  return (s.a < 30 ? "Not listening. " : s.a < 55 ? "Drifting. " : "Listening. ") + (s.w > 60 ? "Warm." : s.w < 38 ? "Cold." : "Neutral.");
+}
+
+/* ---------- effects: the heart of the two-way loop ---------- */
+/* spec: {all:{p,w,a}, sem:{w:5}, ...}  Returns the change in each juror's leaning. */
+function eff(spec, quiet){
+  var before = {}, deltas = {};
+  T.jurors.forEach(function(j){ before[j.id] = score(j.id); });
+  T.jurors.forEach(function(j){
+    var s = S.jurors[j.id];
+    [spec.all, spec[j.id]].forEach(function(e){
+      if (!e) return;
+      if (e.p) s.p = clamp(s.p + e.p);
+      if (e.w) s.w = clamp(s.w + e.w);
+      if (e.a) s.a = clamp(s.a + e.a);
+    });
+    deltas[j.id] = score(j.id) - before[j.id];
+  });
+  afterSpeech(function(){
+    drawJury(deltas);
+    if (!quiet) murmur(deltas);
+    emit("jury", {deltas:deltas, jurors:S.jurors});
+  });
+  return deltas;
+}
+/* the most-moved juror reacts out loud */
+function murmur(deltas){
+  var best = null, bd = 0;
+  T.jurors.forEach(function(j){ if (Math.abs(deltas[j.id]) > Math.abs(bd)) { bd = deltas[j.id]; best = j; } });
+  var el = $("murmur");
+  if (!best || Math.abs(bd) < 1.5) {
+    var sleepy = T.jurors.filter(function(j){ return S.jurors[j.id].a < 35; });
+    el.innerHTML = sleepy.length ? sleepy[0].bored : "";
+    return;
+  }
+  el.innerHTML = (bd > 0 ? best.up : best.down) + (bd > 0 ? ' <b>&#9650;</b>' : '');
+}
+function drift(n){ /* talking costs attention */
+  eff({all:{a:-n}, "var":{a:-1}, pub:{a:-1}}, true);
+}
+
+/* ---------- the water clock ---------- */
+function water(n){
+  S.water = Math.max(0, S.water - n);
+  var h = 44 * S.water / 110;
+  $("water").setAttribute("y", (4 + 44 - h).toFixed(1)); $("water").setAttribute("height", h.toFixed(1));
+  $("waterN").textContent = Math.round(S.water);
+  $("clock").classList.toggle("low", S.water < 25);
+  emit("water", S.water / 110);
+  return S.water > 0;
+}
+
+/* ---------- insights ---------- */
+function insight(id){
+  if (S.ins[id]) return;
+  S.ins[id] = true;
+  var i = T.insights.filter(function(x){ return x[0] === id; })[0];
+  $("insN").textContent = Object.keys(S.ins).length;
+  try { var all = JSON.parse(localStorage.getItem("poet:ins") || "{}"); all[id] = 1; localStorage.setItem("poet:ins", JSON.stringify(all)); } catch(e){}
+  say([{cls:"ins", html:"Insight: <b>" + i[1] + "</b>. " + i[2]}]);
+  afterSpeech(function(){ emit("insight", id); });
+}
+
+/* ---------- writing to the stage ---------- */
+/* In cinema mode (the 3D Forum) the lines are not a page to read: each is a
+   subtitle, spoken if a recording exists, and the choices wait until the
+   speaking stops. Elsewhere every line simply appears. */
+var CINE = document.documentElement.classList.contains("cine") || /[?&]cine=1/.test(location.search);
+if (CINE) document.documentElement.classList.add("cine");
+var Q = [], speaking = null;
+function clear(){
+  var fns = Q.filter(function(x){ return typeof x === "function"; });
+  Q = []; if (speaking) speaking.stop(); speaking = null; document.body.classList.remove("speaking");
+  fns.forEach(function(fn){ fn(); });
+  linesEl.innerHTML = ""; panel.innerHTML = ""; $("murmur").innerHTML = "";
+  if ($("cap")) $("cap").innerHTML = "";
+}
+/* the words of a line as spoken, and the key of its recording (FNV-1a, as in tools/make-voice-poet.mjs) */
+var unhtml = document.createElement("textarea");
+function plain(h){ unhtml.innerHTML = String(h || "").replace(/<[^>]+>/g, ""); return unhtml.value.replace(/\s+/g, " ").trim(); }
+function lineKey(it){
+  var who = typeof it === "string" ? "" : (it.who || ""), text = plain(typeof it === "string" ? it : (it.text || it.html));
+  var str = who + "|" + text, h = 0x811c9dc5;
+  for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+  return {who:who, text:text, hash:("0000000" + (h >>> 0).toString(16)).slice(-8)};
+}
+function para(it){
+  var p = document.createElement("p");
+  if (typeof it === "string") { p.className = "nar"; p.innerHTML = it; }
+  else {
+    p.className = (it.cls || "") + (it.who === "Grattius" ? " gr" : "");
+    p.innerHTML = (it.who ? '<span class="who">' + it.who + '</span>' : "") + (it.html || it.text) + (it.la ? '<span class="la" lang="la">' + it.la + '</span>' : "");
+  }
+  return p;
+}
+/* items: strings (narration) or {who, text, la, cls, html} */
+function say(items){
+  items.forEach(function(it, k){
+    if (CINE) { Q.push(it); return; }
+    var p = para(it);
+    linesEl.appendChild(p);
+    if (it.cls !== "ins") emit("line", lineKey(it));
+    if (it && it.who) emit("say", it.who);
+    setTimeout(function(){ p.classList.add("in"); }, 60 + k * 260);
+  });
+  if (CINE) pump();
+}
+/* run fn once everything already said has been heard */
+function afterSpeech(fn){ if (CINE && (speaking || Q.length)) Q.push(fn); else fn(); }
+/* a long speech becomes several subtitles of about two lines each, like a film's */
+function chunks(text){
+  var out = [], cur = [];
+  text.split(/(?<=[.!?;:]["”’]?)\s+/).forEach(function(s){
+    var w = s.split(" ");
+    while (w.length > 24) { var cut = w.slice(0, 18).join(" ").lastIndexOf(","); var n = cut > 40 ? w.slice(0, 18).join(" ").slice(0, cut + 1).split(" ").length : 16; out.push(w.slice(0, n).join(" ")); w = w.slice(n); }
+    if (cur.length && cur.length + w.length > 20) { out.push(cur.join(" ")); cur = []; }
+    cur = cur.concat(w);
+  });
+  if (cur.length) out.push(cur.join(" "));
+  return out;
+}
+/* the subtitle: who is speaking, and the part of the line being said */
+function caption(it, part, last){
+  var cap = $("cap"); if (!cap) return;
+  cap.className = typeof it === "string" ? "nar" : (it.cls || "") + (it.who === "Grattius" ? " gr" : "");
+  cap.innerHTML = (it.who ? '<span class="who">' + it.who + '</span>' : "") + part.replace(/&/g, "&amp;").replace(/</g, "&lt;") +
+    (last && it.la ? '<span class="la" lang="la">' + it.la + '</span>' : "");
+  cap.classList.remove("in"); void cap.offsetWidth; cap.classList.add("in");
+}
+function pump(){
+  if (speaking) return;
+  var it = Q.shift();
+  if (it === undefined) { document.body.classList.remove("speaking"); return; }
+  if (typeof it === "function") { it(); pump(); return; }
+  var p = para(it);
+  linesEl.appendChild(p); p.classList.add("in");
+  if (it.cls === "ins") { toast(p.innerHTML); pump(); return; }
+  document.body.classList.add("speaking");
+  var key = lineKey(it), timer = null, me = {}, parts = chunks(key.text), shown = [];
+  var finish = function(){
+    if (speaking !== me) return;
+    clearTimeout(timer); shown.forEach(clearTimeout); speaking = null;
+    me.gap = setTimeout(pump, 380);
+  };
+  me.stop = function(){ clearTimeout(timer); shown.forEach(clearTimeout); if (window.__voiceStop) window.__voiceStop(); };
+  me.skip = function(){ if (window.__voiceStop) window.__voiceStop(); caption(it, parts[parts.length - 1], true); finish(); };
+  speaking = me;
+  /* a recording if there is one; otherwise the time it takes to read */
+  var read = Math.max(2.2, Math.min(18, key.text.split(" ").length / 2.6 + 1));
+  var dur = window.__voice ? window.__voice(key, finish) : 0;
+  if (!dur) timer = setTimeout(finish, read * 1000);
+  key.dur = dur || read;
+  /* each part of a long line comes up as its share of the speaking begins */
+  var total = key.text.length, at = 0;
+  parts.forEach(function(part, i){
+    var t = (at / total) * key.dur * 1000; at += part.length + 1;
+    if (i === 0) caption(it, part, parts.length === 1);
+    else shown.push(setTimeout(function(){ caption(it, part, i === parts.length - 1); }, t));
+  });
+  emit("line", key);
+  if (it.who) emit("say", it.who);
+}
+function skipLine(){ if (speaking && speaking.skip) speaking.skip(); }
+function skipAll(){
+  if (speaking) { var s = speaking; s.skip(); clearTimeout(s.gap); }
+  speaking = null;
+  while (Q.length) {
+    var it = Q.shift();
+    if (typeof it === "function") { it(); continue; }
+    var p = para(it); p.classList.add("in"); linesEl.appendChild(p);
+    if (it.cls !== "ins") emit("skipline", lineKey(it));
+    if (it.cls === "ins") toast(p.innerHTML);
+    else { var parts = chunks(lineKey(it).text); caption(it, parts[parts.length - 1], true); }
+  }
+  document.body.classList.remove("speaking");
+}
+/* insights and evidence, in cinema mode, arrive as a small card in the corner */
+function toast(html){
+  var box = $("toasts");
+  if (!box) { box = document.createElement("div"); box.id = "toasts"; box.setAttribute("aria-live", "polite"); document.body.appendChild(box); }
+  var t = document.createElement("div"); t.className = "toast"; t.innerHTML = html; box.appendChild(t);
+  setTimeout(function(){ t.classList.add("in"); }, 30);
+  setTimeout(function(){ t.classList.remove("in"); setTimeout(function(){ t.remove(); }, 700); }, 5200);
+}
+function act(k, name){ S.act = name; $("act").innerHTML = k + "<b>" + name + "</b>"; document.body.classList.toggle("night", name === "The night before"); emit("act", name); }
+function btn(label, fn, cls){
+  var b = document.createElement("button"); b.type = "button"; b.className = cls || "next"; b.innerHTML = label;
+  b.addEventListener("click", fn); return b;
+}
+function next(fn, label){
+  Array.prototype.forEach.call(panel.querySelectorAll(".go"), function(x){ x.remove(); });
+  /* in cinema mode, the cards and papers already used make way for Continue */
+  if (CINE) Array.prototype.slice.call(panel.children).forEach(function(x){ x.remove(); });
+  var g = document.createElement("div"); g.className = "go";
+  g.appendChild(btn(label || "Continue &#9656;", function(){ if (g.dataset.used) return; g.dataset.used = 1; g.remove(); fn(); }));
+  panel.appendChild(g);
+  var b = g.querySelector("button"); setTimeout(function(){ try { b.focus({preventScroll:true}); } catch(e){} }, 400);
+}
+/* a list of choices; each {b, s, small, fn, cost} */
+function choose(list){
+  var c = document.createElement("div"); c.className = "choices";
+  list.forEach(function(o){
+    var b = document.createElement("button"); b.type = "button"; b.className = "ch";
+    b.innerHTML = "<b>" + o.b + "</b>" + (o.s ? "<span>" + o.s + "</span>" : "") + (o.small ? "<small>" + o.small + "</small>" : "");
+    if (o.cost && S.water < o.cost) { b.disabled = true; b.innerHTML += "<small>Not enough water left.</small>"; }
+    b.addEventListener("click", function(){
+      Array.prototype.forEach.call(c.querySelectorAll("button"), function(x){ x.disabled = true; });
+      S.log.push([S.act, o.b]);
+      emit("choice", plain(o.b));
+      if (CINE) c.remove();
+      o.fn();
+    });
+    c.appendChild(b);
+  });
+  panel.appendChild(c);
+}
+function addCard(id){
+  if (S.cards[id]) return false;
+  S.cards[id] = true; return true;
+}
+function gotCards(ids){
+  var fresh = ids.filter(addCard);
+  if (fresh.length) say([{cls:"ins", html:"Evidence for your table: <b>" + fresh.map(function(id){ return T.cards[id].t; }).join("</b>, <b>") + "</b>."}]);
+}
+function outOfWater(){
+  clear();
+  say([{who:"Quintus, the praetor", text:"The water has run out, Cicero. The court has heard enough."},
+       "Your time is gone. Whatever you meant to say next, the jury will never hear it."]);
+  next(verdict, "The jury votes &#9656;");
+}
+
+/* ---------- the class votes ---------- */
+function classVote(question, help, done){
+  if (!opts.cls) { done(null); return; }
+  var v = document.createElement("div"); v.className = "vote";
+  v.innerHTML = '<p class="k">The class decides</p><h3>' + question + '</h3><p class="hint">' + help + '</p>' +
+    '<div class="row">Hands up: <input type="number" min="0" id="vYes" value="0"> of <input type="number" min="1" id="vAll" value="30"> students</div>';
+  panel.appendChild(v);
+  var g = document.createElement("div"); g.className = "go";
+  g.appendChild(btn("Count the hands &#9656;", function(){
+    var y = +$("vYes").value || 0, n = Math.max(1, +$("vAll").value || 1);
+    v.remove(); g.remove();
+    done(Math.max(0, Math.min(1, y / n)));
+  }));
+  panel.appendChild(g);
+}
+
+/* ================================================================
+   THE TRIAL
+   ================================================================ */
+function begin(){
+  opts.cls = $("optClass").checked; opts.short = $("optShort").checked;
+  document.body.classList.toggle("latin", $("optLatin").checked);
+  reset(); water(0);
+  $("title").hidden = true; $("court").hidden = false; $("reflect").hidden = true;
+  $("insN").textContent = "0"; $("jury").innerHTML = ""; drawJury();
+  window.scrollTo(0, 0);
+  emit("begin");
+  if (opts.short) { S.cards = {res:true, met:true, oth:true, fire:true}; S.flags.grat = true; actI(); }
+  else prologue();
+}
+
+/* ---------- prologue: the night before ---------- */
+function prologue(){
+  act("Prologue", "The night before");
+  clear();
+  say(["Rome, 62 BC. Night. A lamp, a table, a hundred scrolls.",
+       "You are Marcus Tullius Cicero. Last year you were consul and saved the Republic, or so you like to say. Tomorrow you defend an old man in court.",
+       "A knock. Archias comes in: thin, grey, holding a case of papers as if it might break.",
+       {who:"Archias", text:"They say Grattius has the law of Papius in one hand and nothing in the other. But nothing is enough, Marcus, when the papers are ash."},
+       "He lays the case file on your table. Read it, or don&#8217;t: tomorrow you will only have what you know."]);
+  var docs = document.createElement("div"); docs.className = "docs";
+  [["The charge", "Under the law of Papius (65 BC), a foreigner living in Rome without the citizenship must leave the city. Grattius says Archias is no citizen. <i>Note in the margin: he has lived here since he was a boy, in the Luculli's house.</i>", ["res"]],
+   ["The law of 89 BC", "Citizens of allied towns who lived in Italy, and declared themselves before a praetor within sixty days, became Romans. <i>Archias declared before the praetor Quintus Metellus.</i>", ["met"]],
+   ["A letter from Heraclea", "&#8220;Our record office burned in the war. We have nothing on paper. But we remember him, and so do Tarentum, Rhegium and Neapolis, who made him theirs too.&#8221;", ["fire","oth"]]
+  ].forEach(function(d){
+    var b = document.createElement("button"); b.type = "button"; b.className = "doc";
+    b.innerHTML = "<b>" + d[0] + "</b>Click to read.";
+    b.addEventListener("click", function(){
+      if (b.classList.contains("read")) return;
+      b.classList.add("read"); b.innerHTML = "<b>" + d[0] + "</b>" + d[1] + '<span class="got">Evidence: ' + d[2].map(function(c){ return T.cards[c].t; }).join(", ") + "</span>";
+      d[2].forEach(addCard);
+    });
+    docs.appendChild(b);
+  });
+  panel.appendChild(docs);
+  var g = document.createElement("div"); g.className = "go";
+  g.appendChild(btn("Put the papers down &#9656;", function(){ g.remove(); docs.style.pointerEvents = "none"; prologueChoice(); }));
+  panel.appendChild(g);
+}
+function prologueChoice(){
+  say([{who:"Archias", text:"Well? Can you save me?"}]);
+  choose([
+    {b:"&#8220;You taught me everything, old friend. I will not let them send you away.&#8221;", s:"Speak from gratitude.", fn:function(){
+      S.flags.grat = true; eff({sem:{w:4}, ser:{w:5}}, true); insight("debt"); next(actI); }},
+    {b:"&#8220;The law is clear. This will be quick.&#8221;", s:"Confidence.", fn:function(){
+      S.flags.hasty = true; eff({all:{p:3}}, true); next(actI); }},
+    {b:"&#8220;Tell me everything, from Antioch onwards.&#8221;", s:"Listen first.", fn:function(){
+      S.flags.heard = true;
+      say([{who:"Archias", text:"Antioch, where I was born. Fame in Asia and Greece. Tarentum, Rhegium, Neapolis. Rome at seventeen, the year Marius and Catulus were consuls; the Luculli took me in. Heraclea, with Marcus Lucullus. Then the law of 89, and Metellus. Since then, the wars in the east with Lucius Lucullus: I was with his army at the last census, and in Asia at the one before. I have made my will as a Roman, Marcus. I have inherited as one."}]);
+      gotCards(["cam","liv"]); next(actI); }}
+  ]);
+}
+
+/* ---------- Act I: the Forum ---------- */
+function actI(){
+  act("Act I &#183; Exordium", "The Forum, morning");
+  clear();
+  say(["The Forum in spring sunlight. The Rostra, the Temple of Castor, and a crowd that has come to watch a famous man speak.",
+       "On the tribunal sits the praetor, your own brother Quintus. Eight jurors on the benches. Archias, by your side, does not look up.",
+       {who:"Quintus, the praetor", text:"The court is in session. The charge is under the law of Gaius Papius. Grattius, you may speak."},
+       {who:"Grattius", text:"Judges, this man is a Syrian: a Greek who sings for his supper in the houses of the great. He says he is a citizen of Heraclea; then show me Heraclea's register. He says he is a citizen of Rome; then show me his name in one census, any census, in twenty-seven years. You cannot. The law of Papius was made for exactly this man. Send him home."}]);
+  setTimeout(function(){ eff({all:{p:-8}, mam:{p:-6}, tit:{w:-4}, ati:{p:-4}}); }, 1200);
+  next(exordium, "Rise to speak &#9656;");
+}
+function exordium(){
+  clear();
+  say(["The water clock is turned for you. Everyone is looking at you. How do you begin?"]);
+  choose([
+    {b:"Thank the jury and ask leave to speak unusually, about literature", s:"&#8220;My client is a poet, and this is a learned court: allow me to speak a little more freely than the courts are used to.&#8221;", fn:function(){
+      S.flags.perm = true;
+      say([{who:"Cicero", cls:"quote", text:"If I have any talent, judges (and I know how little it is), my friend Archias has a right to it. Grant me one favour: let me speak of literature, as befits a poet's defence.", la:"Si quid est in me ingeni, iudices, quod sentio quam sit exiguum..."}]);
+      eff({all:{w:8}, ati:{w:-6}, sem:{w:S.flags.grat ? 4 : 0}, ser:{w:S.flags.grat ? 4 : 0}});
+      insight("perm"); water(4); next(narratio); }},
+    {b:"Attack the prosecution as political", s:"&#8220;Grattius is here as Pompey's errand boy, to wound Lucullus through his poet.&#8221;", fn:function(){
+      S.flags.attack = true;
+      eff({gna:{w:-30}, "var":{a:8}, pub:{a:6}, sem:{w:-6}});
+      say([{who:"Grattius", text:"How brave, to insult a man who is not here."}]);
+      water(4); next(narratio); }},
+    {b:"Go straight to the law", s:"No preamble. The facts.", fn:function(){
+      eff({ati:{w:5}, all:{p:2, a:-3}}); water(2); next(narratio); }}
+  ]);
+}
+
+/* ---------- Act II: the story of a life ---------- */
+/* each part of the story: its card, and the sentence Cicero says for it */
+var LIFE = [
+  ["Born at Antioch", "a rich, learned city", "He was born at Antioch, a rich and famous city, full of learning."],
+  ["Famous young", "across Asia and Greece", "While he was still a boy, his talent was famous across all of Asia and Greece."],
+  ["Tarentum, Rhegium, Neapolis", "made him their citizen", "Tarentum, Rhegium and Neapolis made him their citizen, and honoured him."],
+  ["Rome, 102 BC", "aged about seventeen; Marius and Catulus consuls", "He came to Rome at about seventeen, in the year Marius and Catulus were consuls."],
+  ["The house of the Luculli", "takes him in", "The Luculli took him into their house, and it has been his home ever since."],
+  ["Friend of the great", "Metelli, Catulus, Crassus, Drusus, the Hortensii", "The Metelli, Catulus, Crassus, Drusus, the Hortensii: the first men of Rome were his friends."],
+  ["Heraclea", "enrolled as its citizen, with Marcus Lucullus", "With Marcus Lucullus beside him, he was enrolled as a citizen of Heraclea."],
+  ["89 BC: before Metellus", "declares himself within sixty days", "When the law of 89 was passed, he declared himself before the praetor Metellus, within the sixty days."],
+  ["The Cimbrian poem", "praises Marius' war", "He sang the war against the Cimbri, and pleased even Marius."],
+  ["The Mithridatic war", "travels east with Lucius Lucullus", "He went east with Lucius Lucullus, and sang the war against Mithridates."]
+];
+function narratio(){
+  if (opts.short) { S.story = [0,3,6,7]; tellStory(true); return; }
+  act("Act II &#183; Narratio", "The story of a life");
+  clear();
+  say(["Tell the jury who he is. Briefly: every part of the story costs water, and only six will fit.",
+       "Choose the parts, in the order you will tell them."]);
+  var slots = document.createElement("div"); slots.className = "slots";
+  var deck = document.createElement("div"); deck.className = "deck";
+  function paint(){
+    slots.innerHTML = S.story.length ? "" : '<span class="slot empty">Your story is empty. Choose from the cards below.</span>';
+    S.story.forEach(function(i, k){
+      var s = document.createElement("button"); s.type = "button"; s.className = "slot";
+      s.innerHTML = "<i>" + (k + 1) + "</i>" + LIFE[i][0];
+      s.title = "Remove";
+      s.addEventListener("click", function(){ S.story.splice(k, 1); paint(); });
+      slots.appendChild(s);
+    });
+    Array.prototype.forEach.call(deck.children, function(c, i){ c.classList.toggle("on", S.story.indexOf(i) >= 0); });
+    tell.disabled = !S.story.length;
+  }
+  LIFE.forEach(function(l, i){
+    var c = document.createElement("button"); c.type = "button"; c.className = "card" + (S.flags.heard && [3,6,7].indexOf(i) >= 0 ? " star" : "");
+    c.innerHTML = "<b>" + l[0] + "</b>" + l[1] + '<span class="cost">3 water</span>';
+    c.addEventListener("click", function(){
+      var at = S.story.indexOf(i);
+      if (at >= 0) S.story.splice(at, 1); else if (S.story.length < 6) S.story.push(i);
+      paint();
+    });
+    deck.appendChild(c);
+  });
+  panel.appendChild(slots);
+  var h = document.createElement("p"); h.className = "hint"; h.textContent = "Click a card to add it to your story; click it again, or click it in the story, to take it out." + (S.flags.heard ? " The starred cards are the ones Archias stressed last night." : "");
+  panel.appendChild(h);
+  panel.appendChild(deck);
+  var g = document.createElement("div"); g.className = "go";
+  var tell = btn("Tell the story &#9656;", function(){ deck.style.pointerEvents = "none"; g.remove(); tellStory(false); });
+  g.appendChild(tell); panel.appendChild(g);
+  paint();
+}
+function tellStory(auto){
+  var st = S.story, has = function(i){ return st.indexOf(i) >= 0; };
+  water(st.length * 3); drift(Math.ceil(st.length / 2));
+  if (!auto) say(st.map(function(i){ return {who:"Cicero", cls:"quote", text:LIFE[i][2]}; }));
+  var chain = has(3) && has(6) && has(7);
+  var chainOrdered = chain && st.indexOf(3) < st.indexOf(6) && st.indexOf(6) < st.indexOf(7);
+  var chrono = st.every(function(v, k){ return k === 0 || st[k-1] < v; });
+  var spec = {all:{}, ati:{}, mam:{}, "var":{}, pub:{}, sem:{}, ser:{}, tit:{}, gna:{}};
+  if (chain) { spec.all.p = 8; if (chainOrdered) { spec.ati.p = 6; spec.mam.p = 8; } }
+  else { spec.all.p = -6; spec.ati.p = -10; spec.mam.p = -10; }
+  spec.all.a = chrono ? 5 : -4;
+  if (has(0) || has(1)) { spec.all.w = 5; spec.sem.w = 5; } else spec.all.w = -3;
+  if (has(5)) { spec["var"].a = -12; spec.pub.a = -5; spec.sem.w = (spec.sem.w || 0) + 4; }
+  if (has(2)) spec.ser.w = 3;
+  if (has(8)) spec.tit.w = 8;
+  if (has(9)) { spec.gna.w = -6; spec.tit.w = (spec.tit.w || 0) + 4; spec.pub.w = 3; }
+  eff(spec);
+  var lines = [];
+  if (!chain) lines.push({who:"Grattius", text:"A charming biography. But when, exactly, did this Syrian become a Roman? The defence seems to have forgotten."});
+  else if (!chainOrdered) lines.push("Atilius frowns: the dates of Heraclea and the law came out in the wrong order, and he had to untangle them.");
+  else lines.push("The legal chain is there, in order: Rome, Heraclea, the declaration before Metellus. Atilius writes it down.");
+  if (has(5)) lines.push("The long list of famous friends made Varro yawn.");
+  say(lines);
+  if (chainOrdered && chrono && st.length <= 6 && (has(0) || has(1))) insight("brief");
+  if (!water(0)) return outOfWater();
+  next(witness);
+}
+
+/* ---------- Act III: proof ---------- */
+function witness(){
+  act("Act III &#183; Confirmatio", "Proof");
+  emit("witness");
+  clear();
+  say(["You call your first witness. Marcus Lucullus, senator, rises from the front row. What do you ask him?",
+       "Each question costs water. Ask well."]);
+  var asked = {};
+  var Q = [
+    ["&#8220;Do you know Archias?&#8221;", "&#8220;All Rome knows him.&#8221; The jury already knew that.", function(){ eff({"var":{a:-4}}); }],
+    ["&#8220;Were you at Heraclea when he was enrolled?&#8221;", "&#8220;I was.&#8221;", function(){ eff({ati:{p:3}}); }],
+    ["&#8220;Did you arrange the enrolment yourself?&#8221;", "&#8220;I did it myself. I do not think it, I know it. I did not hear of it, I saw it.&#8221;", function(){ eff({ati:{p:6}, mam:{p:4}}); gotCards(["luc"]); }],
+    ["&#8220;What became of the town's records?&#8221;", "&#8220;They burned with the record office in the Italian war.&#8221;", function(){ gotCards(["fire"]); }],
+    ["&#8220;Where was Archias at the last census?&#8221;", "&#8220;With my brother's army in the east.&#8221;", function(){ gotCards(["cam"]); }],
+    ["&#8220;What do you think of his poetry?&#8221;", "&#8220;It is very fine.&#8221; Servius smiles; everyone else waits.", function(){ eff({ser:{w:4}, "var":{a:-3}}); }]
+  ];
+  function ask(){
+    panel.innerHTML = "";
+    var list = Q.map(function(q, i){
+      return {b:q[0], small:"4 water", cost:4, fn:function(){
+        asked[i] = true; water(4); drift(2);
+        say([{who:"Marcus Lucullus", text:q[1]}]); q[2]();
+        if (!water(0)) return outOfWater();
+        ask(); }};
+    }).filter(function(o, i){ return !asked[i]; });
+    list.push({b:"Thank the witness", s:"Call the envoys of Heraclea next.", fn:envoys});
+    choose(list);
+  }
+  ask();
+}
+function envoys(){
+  emit("envoys");
+  say(["Three envoys from Heraclea step forward in Greek cloaks and lay a sealed tablet before the praetor: the town's official word that Archias is its citizen."]);
+  gotCards(["env"]);
+  eff({ati:{p:3}, all:{p:2}}, true);
+  panel.innerHTML = "";
+  say(["Before Grattius replies, you have a moment. Use it?"]);
+  var used = {};
+  function moment(){
+    panel.innerHTML = "";
+    var l = [];
+    if (!used.wh) l.push({b:"Whisper to Archias", s:"Ask him what he did as a Roman.", small:"4 water", cost:4, fn:function(){
+      used.wh = true; water(4); say([{who:"Archias, whispering", text:"I made my will by Roman law. I took inheritances from Roman friends. And at the census of Julius and Crassus, Marcus, nobody was counted at all."}]); gotCards(["liv","emp"]); moment(); }});
+    if (!used.cl) l.push({b:"Ask the clerk about the praetors' lists", s:"Whose registers can be trusted?", small:"4 water", cost:4, fn:function(){
+      used.cl = true; water(4); say([{who:"The clerk", text:"Appius kept his lists carelessly, sir, and Gabinius' were worthless. Metellus? He once came to court worried about a single erased name."}]); gotCards(["app"]); moment(); }});
+    l.push({b:"Let Grattius speak", s:"Face the objections.", fn:function(){ objection(0); }});
+    choose(l);
+  }
+  moment();
+}
+
+var OBJ = [
+  {q:"A citizen of Heraclea? Then show the court Heraclea's register!", judge:function(c){
+    var L = c.luc, E = c.env, F = c.fire;
+    if (L && E && F) return {g:3, spec:{all:{p:9}, ati:{p:6}}, line:{who:"Cicero", cls:"quote", text:"It is absurd to say nothing of the proof we have, and demand the proof no one can have.", la:"Est ridiculum ad ea quae habemus nihil dicere, quaerere quae habere non possumus."}, ins:"memory"};
+    if (L && E) return {g:2, spec:{all:{p:6}, ati:{p:3}}, gr:"Witnesses. Always witnesses. Where is the paper?"};
+    if (L || E) return {g:1, spec:{all:{p:3}}, gr:"One witness. A friend of the accused, no less."};
+    if (F) return {g:0, spec:{all:{p:-6}, ati:{p:-8}}, gr:"So the defence admits it: there is no record. Thank you, Cicero."};
+    return null; }},
+  {q:"He never truly lived in Rome. A wandering singer has no fixed home.", judge:function(c){
+    if (c.res) return {g:2, spec:{all:{p:5}, mam:{p:3}}, gr:"...Forty years in one house. Very well."};
+    if (c.oth) return {g:0, spec:{all:{p:-3}}, gr:"Tarentum, Neapolis? Then let Tarentum keep him!"};
+    return null; }},
+  {q:"Even if he declared himself, those praetors' lists are worthless. Anyone could buy a line in them.", judge:function(c){
+    if (c.met && c.app) return {g:3, spec:{all:{p:8}, mam:{p:6}, ati:{p:3}}, line:{who:"Cicero", text:"Appius' lists were careless, Gabinius' corrupt. But Metellus came to court worried over a single erased name. Look at his lists: there is no erasure over Aulus Licinius."}, ins:"records"};
+    if (c.met) return {g:2, spec:{all:{p:5}}, gr:"Metellus was his friend. Of course he wrote him in."};
+    if (c.app) return {g:0, spec:{all:{p:0}}, gr:"You agree the lists are bad, then?"};
+    return null; }},
+  {q:"His name is in no census. Not one, in twenty-seven years.", vote:true, judge:function(c){
+    var n = (c.cam ? 1 : 0) + (c.emp ? 1 : 0) + (c.liv ? 1 : 0);
+    if (n === 3) return {g:3, spec:{all:{p:8}, mam:{p:8}}, line:{who:"Cicero", text:"At the last census he was with Lucullus' army; at the one before, in Asia; at the first, no one was counted at all. And a census only shows who claimed citizenship: this man made his will and took inheritances as a Roman."}, ins:"absence"};
+    if (n === 2) return {g:2, spec:{all:{p:5}, mam:{p:4}}, gr:"Convenient absences."};
+    if (n === 1) return {g:1, spec:{all:{p:2}}, gr:"And the other censuses?"};
+    return null; }}
+];
+function objection(k){
+  clear();
+  var o = OBJ[k];
+  act("Act III &#183; Refutatio", "Grattius objects (" + (k + 1) + " of 4)");
+  say([{who:"Grattius", text:o.q}]);
+  var start = function(){ evidenceTable(k); };
+  if (o.vote) classVote("Is being missing from the census proof that a man is not a citizen?", "Ask the class. Hands up for <b>no, it is not proof</b>.", function(r){
+    if (r !== null) { S.vote1 = r; eff(r >= 0.5 ? {mam:{p:5}, ati:{p:4}, "var":{p:4}} : {mam:{p:-4}, ati:{p:-3}}); say([r >= 0.5 ? "The room murmurs: absence is not proof. The undecided jurors take note." : "The room is not sure. Mamilius looks harder at his census lists."]); }
+    start(); });
+  else start();
+}
+function evidenceTable(k){
+  var o = OBJ[k], pick = {};
+  say(["Choose your answer from the evidence you hold: up to three cards, 3 water each."]);
+  var deck = document.createElement("div"); deck.className = "deck";
+  var ids = Object.keys(S.cards);
+  if (!ids.length) say(["You have no evidence at all. You did not read the case file, and you asked nothing."]);
+  ids.forEach(function(id){
+    var c = document.createElement("button"); c.type = "button"; c.className = "card";
+    c.innerHTML = "<b>" + T.cards[id].t + "</b>" + T.cards[id].d;
+    c.addEventListener("click", function(){
+      if (pick[id]) delete pick[id]; else if (Object.keys(pick).length < 3) pick[id] = true;
+      c.classList.toggle("on", !!pick[id]);
+      ans.disabled = !Object.keys(pick).length;
+    });
+    deck.appendChild(c);
+  });
+  panel.appendChild(deck);
+  var g = document.createElement("div"); g.className = "go";
+  g.appendChild(btn("Say nothing", function(){ g.remove(); deck.remove(); answer(k, {}); }, "quiet"));
+  var ans = btn("Answer &#9656;", function(){ g.remove(); deck.style.pointerEvents = "none"; answer(k, pick); });
+  ans.disabled = true; g.appendChild(ans); panel.appendChild(g);
+}
+function answer(k, pick){
+  var n = Object.keys(pick).length, o = OBJ[k];
+  S.log.push(["Objection " + (k + 1), Object.keys(pick).map(function(id){ return T.cards[id].t; }).join(" + ") || "(nothing)"]);
+  water(n * 3); drift(2);
+  var r = o.judge(pick);
+  if (!r) { r = {g:0, spec:{all:{p:-5}, ati:{p:-4}, mam:{p:-4}}, gr: n ? "That is not an answer to my question." : "The defence has nothing to say."}; if (n) say([{who:"Quintus, the praetor", text:"Keep to the point, Cicero."}]); }
+  S.flags["o" + k] = r.g;
+  if (r.line) say([r.line]);
+  if (r.gr) say([{who:"Grattius", text:r.gr}]);
+  eff(r.spec);
+  if (r.ins) insight(r.ins);
+  if (!water(0)) return outOfWater();
+  if (k < OBJ.length - 1) next(function(){ objection(k + 1); });
+  else next(flourish);
+}
+function flourish(){
+  clear();
+  say(["Grattius sits. You have answered him. One more stroke of the law, or leave it there?"]);
+  var l = [];
+  if (S.cards.oth) l.push({b:"Add: other cities made him a citizen too", s:"&#8220;Towns that gave citizenship to actors would refuse it to him?&#8221;", small:"6 water", cost:6, fn:function(){
+    water(6); drift(3); eff({ser:{w:5}, all:{p:2}}); next(theTurn); }});
+  l.push({b:"Leave the law there", fn:theTurn});
+  choose(l);
+}
+
+/* ---------- the turn ---------- */
+function theTurn(){
+  act("Interlude", "The turn");
+  clear();
+  /* talking about records is hard on a jury: the room sags, visibly */
+  eff({all:{a:S.flags.hasty ? -16 : -12}, "var":{a:-6}, pub:{a:-6}, tit:{a:-4}});
+  say(["The law is on your side now. You can see it in Atilius' notes, in Mamilius' nod.",
+       "But look at the benches. Varro is checking the sun. Publius is whispering. Titus has folded his arms.",
+       {who:"Grattius", text:"Why such love for this little Greek, Cicero? What is a poet to a Roman court?"}]);
+  classVote("Cicero has proved the law. Should he stop here?", "Hands up for <b>stop here</b>.", function(r){
+    if (r !== null) { S.vote2 = r; say([r >= 0.5 ? "Most of the class would stop. The jury's faces say something else." : "Most of the class would go on."]); }
+    turnChoice();
+  });
+}
+function turnChoice(){
+  var more = 0;
+  function show(){
+    choose([
+      {b:"Rest your case", s:"You have proved the law. Let them vote.", fn:function(){
+        S.flags.rested = true; insight("proof"); next(peroration); }},
+      {b:"Pile on more legal points", s:"Repeat the strongest proofs once more.", small:"10 water", cost:10, fn:function(){
+        more++; water(10); eff({all:{a:-8, p:2}});
+        say(["You go over the records again. Two jurors are now openly not listening."]);
+        if (!water(0)) return outOfWater();
+        show(); }},
+      {b:"Answer his real question: why does literature matter?", s:"Step outside the case.", fn:function(){
+        S.flags.turned = true;
+        var lift = S.flags.perm ? 14 : 8;
+        eff({all:{a:lift, w:S.flags.perm ? 5 : 0}});
+        say([{who:"Cicero", cls:"quote", text:"You ask why I love this man? Because he gives my mind rest from the noise of this place, and the strength to speak in it."},
+             "Heads come up along the benches. The crowd behind them pushes closer."]);
+        insight("beyond"); next(actIV); }}
+    ]);
+  }
+  show();
+}
+
+/* ---------- Act IV: the defence of literature ---------- */
+var ARGS = {
+  rest:{t:"Rest for the mind", d:"Literature restores me after the courts; I give it no more time than others give to dice.", kind:"gentle",
+    say:"Others spend their free hours on games and dice and parties. I spend mine on books, and from them I come back to the courts stronger, and ready for my friends.",
+    spec:{"var":{a:6}, mam:{w:3}, all:{w:1}}},
+  ages:{t:"Through every age", d:"These studies nourish youth and delight old age.", kind:"gentle",
+    say:"These studies nourish youth and delight old age; they adorn good fortune and give refuge and comfort in bad; they please us at home and travel with us, through the night and into the country.",
+    la:"Haec studia adulescentiam alunt, senectutem oblectant, secundas res ornant, adversis perfugium ac solacium praebent...",
+    spec:{all:{w:2, a:2}}},
+  great:{t:"Great men honoured poets", d:"Africanus kept Ennius beside him; Themistocles wanted a singer for his deeds.", kind:"serious",
+    say:"The great Africanus kept the poet Ennius always beside him. Themistocles, asked which voice he liked best to hear, said: the one that best proclaims my deeds.",
+    spec:{sem:{w:5}, pub:{w:5}, tit:{w:2}}},
+  alex:{t:"Alexander at Achilles' tomb", d:"“Fortunate young man, to have found Homer!”", kind:"lively",
+    say:"Alexander, standing at the tomb of Achilles, cried out: Fortunate young man, to have found a Homer to sing your courage! Without the Iliad, the same mound that covered his body would have buried his name.",
+    la:"O fortunate adulescens, qui tuae virtutis Homerum praeconem inveneris!",
+    spec:{tit:{w:7}, pub:{w:6}, all:{a:3}}},
+  sacred:{t:"Poets are sacred", d:"Even rocks answer a poet's voice; seven cities fight over Homer.", kind:"climax",
+    say:"Ennius calls poets sacred. Rocks and deserts answer a poet's voice. Seven cities quarrel over Homer, a foreigner, each claiming him as its own; and shall Rome drive out a living poet who is hers by law?",
+    spec:{ser:{w:7}, sem:{w:5}, ati:{p:-2}, all:{w:2}}},
+  glory:{t:"Rome's own glory", d:"His poems carry the glory of Roman arms to every nation.", kind:"climax",
+    say:"He sang the war against the Cimbri and the war against Mithridates: our victories, our generals, our name. Greek is read in every nation; through his verse, Rome's glory travels as far as her armies did.",
+    spec:{tit:{w:5}, pub:{w:5}, all:{w:2}, gna:{w:-6}}},
+  pompey:{t:"Even Pompey did it", d:"Pompey made his historian Theophanes a citizen before his army.", kind:"serious",
+    say:"Did not Pompey himself, our Great one, make his historian Theophanes a Roman citizen in front of his assembled army, while the soldiers cheered?",
+    spec:{gna:{w:11}, tit:{w:2}}},
+  sulla:{t:"Sulla's bad poet", d:"Sulla paid a dreadful poet, on condition he never write again.", kind:"lively",
+    say:"A wretched poet once handed Sulla a few verses in his praise. Sulla paid him at once, on one condition: that he never write anything again. If Sulla rewarded even a bad poet, what would he have given Archias?",
+    spec:{"var":{a:9, w:4}, mam:{a:5}, sem:{w:-4}}}
+};
+function actIV(){
+  act("Act IV &#183; Beyond the case", "The defence of literature");
+  clear();
+  say(["Now speak for literature. Choose four arguments, and put them in the order you will make them. 6 water each.",
+       "Watch who each one will please. Tap a juror to remind yourself what he cares about."]);
+  var pick = [];
+  var slots = document.createElement("div"); slots.className = "slots";
+  var deck = document.createElement("div"); deck.className = "deck";
+  function paint(){
+    slots.innerHTML = pick.length ? "" : '<span class="slot empty">Your speech is empty.</span>';
+    pick.forEach(function(id, k){
+      var s = document.createElement("button"); s.type = "button"; s.className = "slot";
+      s.innerHTML = "<i>" + (k + 1) + "</i>" + ARGS[id].t; s.title = "Remove";
+      s.addEventListener("click", function(){ pick.splice(k, 1); paint(); });
+      slots.appendChild(s);
+    });
+    Array.prototype.forEach.call(deck.children, function(c){ c.classList.toggle("on", pick.indexOf(c.dataset.id) >= 0); });
+    speak.disabled = pick.length < 1 || pick.length * 6 > S.water;
+  }
+  Object.keys(ARGS).forEach(function(id){
+    var c = document.createElement("button"); c.type = "button"; c.className = "card"; c.dataset.id = id;
+    c.innerHTML = "<b>" + ARGS[id].t + "</b>" + ARGS[id].d + '<span class="cost">6 water</span>';
+    c.addEventListener("click", function(){
+      var at = pick.indexOf(id);
+      if (at >= 0) pick.splice(at, 1); else if (pick.length < 4) pick.push(id);
+      paint();
+    });
+    deck.appendChild(c);
+  });
+  panel.appendChild(slots);
+  panel.appendChild(deck);
+  var g = document.createElement("div"); g.className = "go";
+  var speak = btn("Speak &#9656;", function(){ g.remove(); deck.remove(); slots.style.pointerEvents = "none"; S.order4 = pick.slice(); deliver(0); });
+  g.appendChild(speak); panel.appendChild(g);
+  paint();
+}
+function deliver(k){
+  var ids = S.order4;
+  if (k >= ids.length) { orderJudgement(); return; }
+  if (S.water < 6) return outOfWater();
+  var A = ARGS[ids[k]];
+  emit("argument", ids[k]);
+  water(6); drift(2);
+  var spec = JSON.parse(JSON.stringify(A.spec));
+  if (!S.flags.perm) spec.ati = {p:((spec.ati && spec.ati.p) || 0) - 3, w:-3};
+  if (ids[k] === "pompey" && S.flags.attack) spec.gna = {w:8};
+  if (ids[k] === "ages" && k <= 1) spec.all = {w:4, a:7};
+  if (ids[k] === "sulla" && (k === 1 || k === 2)) spec.all = {a:5};
+  if (k === ids.length - 1 && A.kind === "climax") spec.all = {w:((spec.all && spec.all.w) || 0) + 6, a:((spec.all && spec.all.a) || 0)};
+  if (k === ids.length - 1 && ids[k] === "sulla") spec.all = {w:-8};
+  if (k === ids.length - 1 && A.kind === "gentle") { spec.all = spec.all || {}; spec.all.w = (spec.all.w || 0) - 4; }
+  if (k === 0 && A.kind === "climax") { spec.all = spec.all || {}; spec.all.a = (spec.all.a || 0) - 3; }
+  clear();
+  act("Act IV &#183; Beyond the case", "Argument " + (k + 1) + " of " + ids.length + ": " + A.t);
+  say([{who:"Cicero", cls:"quote", text:A.say, la:A.la}]);
+  if (ids[k] === "pompey" && S.flags.attack) say([{who:"Grattius", text:"An hour ago Pompey's friends were errand boys. Now you flatter him?"}]);
+  if (ids[k] === "sulla" && k === ids.length - 1) say(["The jury laughs. Then it waits for an ending that does not come: you have finished on a joke."]);
+  eff(spec);
+  next(function(){ deliver(k + 1); });
+}
+function orderJudgement(){
+  var ids = S.order4, last = ids[ids.length - 1];
+  var good = ARGS[last].kind === "climax" && (ARGS[ids[0]].kind === "gentle" || ARGS[ids[0]].kind === "serious");
+  if (good) insight("order");
+  var reached = T.jurors.filter(function(j){ return S.jurors[j.id].w >= 55; }).length;
+  if (reached >= 6) insight("jury");
+  next(peroration);
+}
+
+/* ---------- peroration ---------- */
+function peroration(){
+  act("Peroratio", "Your last words");
+  clear();
+  say(["The water is low. One last appeal. How do you end?"]);
+  choose([
+    {b:"Law and humanity together", s:"Restate the four proofs, then ask them to protect him.", small:"4 water", fn:function(){
+      water(4);
+      say([{who:"Cicero", cls:"quote", text:"You have the law, the word of a town, the testimony of Lucullus and the lists of Metellus. Protect, then, a man who has always honoured you, your generals and the Roman people; let him be seen to be rescued by your humanity, not injured by your severity."}]);
+      eff({all:{p:6, w:8 + (S.flags.perm ? 3 : 0)}}); insight("humanity"); next(verdict, "The jury votes &#9656;"); }},
+    {b:"Only the law", s:"A short summary of the proofs.", small:"4 water", fn:function(){
+      water(4); eff({all:{p:6, a:-3}}); next(verdict, "The jury votes &#9656;"); }},
+    {b:"Only the heart", s:"A plea for an old man and his art.", small:"4 water", fn:function(){
+      water(4); eff({all:{w:10}, ati:{p:-4}, mam:{p:-4}}); next(verdict, "The jury votes &#9656;"); }},
+    {b:"Mention your own consulship", s:"&#8220;Archias has already begun a poem on the year I saved the Republic...&#8221;", small:"4 water", fn:function(){
+      water(4);
+      say(["A few jurors smile. Not with you. Grattius smirks openly."]);
+      eff({all:{w:4}, sem:{w:-8}, ati:{w:-8}, gna:{w:-10}, "var":{a:4}, pub:{a:4}}); insight("vanity"); next(verdict, "The jury votes &#9656;"); }}
+  ]);
+}
+
+/* ---------- the verdict ---------- */
+function verdict(){
+  act("Verdict", "The urn");
+  clear();
+  var go = function(){
+    say(["Each juror takes a wax tablet marked A, <i>absolvo</i>, I acquit, and C, <i>condemno</i>, I condemn; scratches out one letter; and drops it into the urn. Quintus reads them out."]);
+    var order = T.jurors.slice().sort(function(a, b){ return Math.abs(score(b.id) - ACQUIT) - Math.abs(score(a.id) - ACQUIT); });
+    var grid = document.createElement("div"); grid.className = "tablets"; panel.appendChild(grid);
+    var tally = document.createElement("p"); tally.className = "tally"; panel.appendChild(tally);
+    var A = 0, C = 0; S.votes = {};
+    if (CINE) {
+      order.forEach(function(j, i){
+        afterSpeech(function(){ drop(j, i); });
+        say([voteLine(j, score(j.id) >= ACQUIT)]);
+      });
+      return;
+    }
+    order.forEach(function(j, i){ setTimeout(function(){ drop(j, i); }, 900 + i * (opts.short ? 700 : 1100)); });
+    function drop(j, i){
+      {
+        var s = S.jurors[j.id], acq = score(j.id) >= ACQUIT;
+        S.votes[j.id] = acq;
+        emit("vote", {id:j.id, acquit:acq});
+        acq ? A++ : C++;
+        var why = acq ? (s.p >= 62 ? "The law is plain." : s.w >= 62 ? "A man like that belongs in Rome." : "The defence was the better speech.")
+                      : (s.a < 30 ? "I stopped listening somewhere in the census." : s.p < 45 ? "No register, no citizen." : s.w < 35 ? "Let Lucullus' poet sing in Antioch." : "Not quite enough.");
+        var t = document.createElement("div"); t.className = "tab " + (acq ? "A" : "C");
+        t.innerHTML = '<span class="L">' + (acq ? "A" : "C") + '</span><span class="n">' + j.name + '</span><span class="r">&#8220;' + why + '&#8221;</span>';
+        grid.appendChild(t); setTimeout(function(){ t.classList.add("in"); }, 30);
+        tally.innerHTML = "Acquit <b>" + A + "</b> &#183; Condemn <b>" + C + "</b>";
+        if (i === order.length - 1) setTimeout(function(){ afterSpeech(function(){ ending(A); }); }, 1400);
+      }
+    }
+  };
+  classVote("The class is the jury now. Do you acquit Archias?", "Hands up for <b>acquit</b>. The room's verdict will sway the undecided jurors.", function(r){
+    if (r !== null) {
+      S.vote3 = r;
+      var close = T.jurors.filter(function(j){ return Math.abs(score(j.id) - ACQUIT) <= 6; });
+      var spec = {}; close.forEach(function(j){ spec[j.id] = {p:r >= 0.5 ? 8 : -8}; });
+      eff(spec);
+      say([close.length ? "The room's verdict reaches the benches. " + close.map(function(j){ return j.name; }).join(", ") + (close.length > 1 ? " were" : " was") + " still undecided." : "The jurors had already made up their minds."]);
+    }
+    go();
+  });
+}
+function voteLine(j, acq){ return {who:"Quintus, the praetor", text:j.name + ": " + (acq ? "absolvo. He acquits." : "condemno. He condemns.")}; }
+function ending(A){
+  S.result = A;
+  emit("ending", A);
+  Array.prototype.forEach.call(linesEl.querySelectorAll("p"), function(p){ p.remove(); });
+  say(endingLines(A));
+  linesEl.parentNode.insertBefore(linesEl, panel.nextSibling);
+  var g = document.createElement("div"); g.className = "go";
+  g.appendChild(btn("Try again", function(){ $("court").hidden = true; $("title").hidden = false; window.scrollTo(0, 0); }, "quiet"));
+  g.appendChild(btn("What happened here &#9656;", reflection));
+  panel.appendChild(g);
+  window.__ended = true;
+}
+function endingLines(A){
+  var lines, won = A >= 4;
+  if (A >= 7) lines = ["The crowd roars before Quintus has finished counting. Archias is a Roman citizen, and everyone in the Forum has heard why poets matter.",
+    {who:"Archias", text:"You spoke for poetry, Marcus. Now poetry owes you a poem."}];
+  else if (won) lines = [(A === 4 ? "Four votes to four. In a Roman court a tie acquits: Archias is saved by the narrowest margin there is." : "Acquitted, by " + A + " votes to " + (8 - A) + ". Not a triumph, but enough.") + " Archias closes his eyes.",
+    {who:"Archias", text:"Enough is a beautiful word, Marcus."}];
+  else lines = ["Condemned, by " + (8 - A) + " votes to " + A + ". Under the law of Papius, Archias must leave Rome.",
+    "He gathers his scrolls slowly. Forty years in this city, and the papers that proved it are ash.",
+    {who:"Archias", text:"Then I shall go where Greek is read. That is everywhere."}];
+  return lines;
+}
+
+/* ================================================================
+   reflection
+   ================================================================ */
+function reflection(){
+  var R = $("reflect");
+  emit("reflection");
+  $("court").hidden = true; R.hidden = false; window.scrollTo(0, 0);
+  var won = S.result >= 4;
+  var row = function(a, b){ return "<tr><td>" + a + "</td><td>" + b + "</td></tr>"; };
+  var cic = [["Exordium", "Owes Archias his own talent; asks leave to speak unusually, about literature (&#167;&#167; 1&#8211;4)"],
+             ["Narratio", "A brief life, with the legal chain in order: Rome, Heraclea, Metellus (&#167;&#167; 4&#8211;7)"],
+             ["Proof", "Lucullus and the envoys for the lost register; Metellus' exact lists; the census absences explained (&#167;&#167; 8&#8211;11)"],
+             ["The turn", "&#8220;You will ask why I love this man...&#8221;: the defence of literature (&#167; 12)"],
+             ["Beyond the case", "Rest for the mind; through every age; great men and poets; Alexander; poets sacred; Rome's glory; even Pompey; Sulla's bad poet (&#167;&#167; 12&#8211;30)"],
+             ["Peroration", "Law and humanity together: &#8220;rescued by your humanity, not injured by your severity&#8221; (&#167;&#167; 31&#8211;32)"]];
+  var mine = {};
+  S.log.forEach(function(l){ mine[l[0]] = (mine[l[0]] ? mine[l[0]] + "; " : "") + l[1].replace(/<[^>]+>/g, ""); });
+  var you = function(keys){ return keys.map(function(k){ return mine[k]; }).filter(Boolean).join("; ") || "<i>(skipped)</i>"; };
+  var story = S.story.map(function(i){ return LIFE[i][0]; }).join(" &#8594; ") || "<i>(none)</i>";
+  var speech = S.order4.map(function(id){ return ARGS[id].t; }).join(" &#8594; ") || "<i>(you did not speak for literature)</i>";
+  var objs = [0,1,2,3].map(function(k){ var g = S.flags["o" + k]; return g === 3 ? "best" : g === 2 ? "strong" : g === 1 ? "weak" : "lost"; });
+  var found = 0;
+  var insHtml = T.insights.map(function(i){ var got = S.ins[i[0]]; if (got) found++;
+    return '<li class="' + (got ? "got" : "") + '"><b>' + (got ? i[1] : "?") + '</b><span>' + (got ? i[2] : "Not found this time.") + '</span></li>'; }).join("");
+  var jl = T.jurors.map(function(j){ var s = S.jurors[j.id];
+    return row("<b>" + j.name + "</b> (" + j.order + ")", (S.votes && S.votes[j.id] ? "Acquitted. " : "Condemned. ") + (s.p >= 60 ? "Convinced by the law; " : s.p < 45 ? "Not convinced by the law; " : "Half-convinced by the law; ") + (s.w >= 60 ? "warm to Archias; " : s.w < 38 ? "cold to Archias; " : "neutral; ") + (s.a >= 55 ? "listening to the end." : s.a < 30 ? "had stopped listening." : "drifting.")); }).join("");
+  R.innerHTML =
+    '<p class="k">What happened here</p>' +
+    '<h2>' + (won ? "Archias stays in Rome" : "Archias leaves Rome") + '</h2>' +
+    '<p>The jury voted <b>' + S.result + ' to ' + (8 - S.result) + '</b> ' + (S.result === 4 ? "and in a Roman court a tie acquits" : won ? "to acquit" : "to condemn") + '. The real verdict of 62 BC is not recorded, but Archias is generally thought to have been acquitted.</p>' +
+    '<h3>Your speech beside Cicero&#8217;s</h3>' +
+    '<table><tr><th>Part</th><th>Cicero</th><th>You</th></tr>' +
+      '<tr><td>Exordium</td><td>' + cic[0][1] + '</td><td>' + you(["The Forum, morning"]) + '</td></tr>' +
+      '<tr><td>Narratio</td><td>' + cic[1][1] + '</td><td>' + story + '</td></tr>' +
+      '<tr><td>Proof</td><td>' + cic[2][1] + '</td><td>Objections: ' + objs.join(", ") + '</td></tr>' +
+      '<tr><td>The turn</td><td>' + cic[3][1] + '</td><td>' + (S.flags.turned ? "You spoke for literature." : S.flags.rested ? "You rested your case." : "You ran out of time.") + '</td></tr>' +
+      '<tr><td>Beyond the case</td><td>' + cic[4][1] + '</td><td>' + speech + '</td></tr>' +
+      '<tr><td>Peroration</td><td>' + cic[5][1] + '</td><td>' + you(["Your last words"]) + '</td></tr>' +
+    '</table>' +
+    '<h3>The jury</h3><table>' + jl + '</table>' +
+    '<h3>Insights: ' + found + ' of 12</h3><ul class="ins-list">' + insHtml + '</ul>' +
+    '<h3>Cicero&#8217;s words</h3>' +
+    '<p><span class="la">Si quid est in me ingeni, iudices...</span><br>&#8220;If I have any talent, judges, and I know how little it is...&#8221; (&#167; 1)</p>' +
+    '<p><span class="la">Est ridiculum ad ea quae habemus nihil dicere, quaerere quae habere non possumus.</span><br>&#8220;It is absurd to say nothing of what we have, and demand what we cannot have.&#8221; (&#167; 8)</p>' +
+    '<p><span class="la">Haec studia adulescentiam alunt, senectutem oblectant, secundas res ornant, adversis perfugium ac solacium praebent.</span><br>&#8220;These studies nourish youth and delight old age; they adorn good fortune and give refuge and comfort in bad.&#8221; (&#167; 16)</p>' +
+    '<p><span class="la">O fortunate adulescens, qui tuae virtutis Homerum praeconem inveneris!</span><br>&#8220;Fortunate young man, to have found Homer as the herald of your courage!&#8221; (&#167; 24)</p>' +
+    '<p><span class="la">Trahimur omnes studio laudis.</span><br>&#8220;We are all drawn on by the love of praise.&#8221; (&#167; 26)</p>' +
+    '<h3>The real trial</h3>' +
+    '<p>Archias, a Greek poet from Antioch, had lived in Rome since about 102 BC. He became a citizen of Heraclea, and so a Roman under the law of 89 BC. In 62 BC Grattius prosecuted him under the law of Papius (65 BC), probably to strike at his patron Lucullus, Pompey&#8217;s rival. Cicero won the legal case in a few sections and spent most of the speech on why literature matters. No record of the verdict survives; Archias is generally thought to have been acquitted. The poem he promised on Cicero&#8217;s consulship, if it was ever written, does not survive.</p>' +
+    '<h3>What this game invents</h3>' +
+    '<p>The eight jurors and their characters, Grattius&#8217; words (his speech is lost; his arguments are rebuilt from Cicero&#8217;s replies), the night-before scene, the clerk, and the water costs. Every English line is our own, written from Cicero&#8217;s Latin.</p>' +
+    '<h3>A tribute</h3>' +
+    '<p class="tribute">In class, Prof. (Dr.) Prasannanshu set aside a line-by-line reading of <i>Pro Archia</i> when he saw it was boring the room. At &#167; 12 Cicero does the same: he stops arguing the technicalities, because a jury that is not listening cannot be persuaded. You faced that moment too. <i lang="sa">सा विद्या या विमुक्तये</i>: that alone is knowledge which sets us free.</p>' +
+    '<h3>Questions to discuss</h3><ol>' +
+      '<li>Grattius had the letter of the law; Cicero had witnesses. When records are lost, what should count as proof?</li>' +
+      '<li>Cicero had won the legal case by &#167; 11, then spoke for twenty more sections. Was that necessary, or showmanship? What did your jury tell you?</li>' +
+      '<li>Is it fair to persuade a jury with poetry when the question is legal? Where is the line in a modern court?</li>' +
+      '<li>Cicero praises poets because they make great men famous. Is that a good reason to value literature? What other reasons does he give?</li>' +
+      '<li>Who is Archias today? Think of people whose papers were lost to war or disaster.</li>' +
+    '</ol>' +
+    '<h3>Your response</h3><p>In a few sentences: what won or lost your case?</p>' +
+    '<textarea id="resp" placeholder="Write here..."></textarea>' +
+    '<p><button class="next" id="save" type="button">Save as a text file</button> <button class="quiet" id="again" type="button">Try the trial again</button> <a class="quiet" href="index.html">Home page</a></p>';
+  $("save").addEventListener("click", function(){
+    var txt = ["SAVE THE POET - my trial of Archias", "", "Verdict: " + S.result + " to " + (8 - S.result) + (won ? " (acquitted)" : " (condemned)"),
+      "My story: " + S.story.map(function(i){ return LIFE[i][0]; }).join(" -> "),
+      "Objections: " + objs.join(", "),
+      "My defence of literature: " + S.order4.map(function(id){ return ARGS[id].t; }).join(" -> "),
+      "Insights: " + found + " of 12", "", "What won or lost my case:", ($("resp").value || "(no answer written)").trim(), ""].join("\r\n");
+    var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([txt], {type:"text/plain"})); a.download = "save-the-poet.txt";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  $("again").addEventListener("click", function(){ R.hidden = true; $("title").hidden = false; window.scrollTo(0, 0); });
+}
+
+/* ---------- wiring ---------- */
+$("begin").addEventListener("click", begin);
+$("insBtn").addEventListener("click", function(){
+  var got = T.insights.filter(function(i){ return S && S.ins[i[0]]; }).map(function(i){ return i[1]; });
+  $("tip").innerHTML = got.length ? "Insights so far: <b>" + got.join("</b>, <b>") + "</b>" : "No insights yet. They appear when you do something Cicero would recognise.";
+});
+if (CINE) {
+  var tr = btn("Transcript", function(){ var on = document.body.classList.toggle("transcript"); tr.setAttribute("aria-pressed", on); }, "tog");
+  tr.title = "Show everything said in this scene"; tr.setAttribute("aria-pressed", "false");
+  $("bar").insertBefore(tr, $("insBtn"));
+  var sk = btn("Skip &#9656;&#9656;", skipAll, "skip"); sk.title = "Skip to the choices (Esc)";
+  $("stage").insertBefore(sk, panel);
+  var cap = document.createElement("div"); cap.id = "cap"; cap.setAttribute("aria-live", "polite"); cap.title = "Click for the next line";
+  cap.addEventListener("click", skipLine);
+  $("stage").insertBefore(cap, sk);
+  $("tip").textContent = "";
+}
+document.addEventListener("keydown", function(e){
+  if (e.target.closest && e.target.closest("textarea, input")) return;
+  if (CINE && (speaking || Q.length) && !$("court").hidden) {
+    if (e.key === "Escape") { e.preventDefault(); skipAll(); return; }
+    if (e.key === "Enter" || e.key === " " || e.key === "ArrowRight") { e.preventDefault(); skipLine(); return; }
+  }
+  if ((e.key === "Enter" || e.key === " ") && !$("court").hidden) {
+    var b = panel.querySelector(".go .next:not([disabled])");
+    if (b && document.activeElement === document.body) { e.preventDefault(); b.click(); }
+  }
+});
+/* for the test harness */
+window.__poet = { state:function(){ return S; }, score:score, ACQUIT:ACQUIT, key:lineKey, jurors:T.jurors, voteLine:voteLine, endingLines:endingLines,
+  storyLines:function(){ return LIFE.map(function(l){ return {who:"Cicero", text:l[2]}; }); },
+  busy:function(){ return !!(speaking || Q.length); }, skipAll:skipAll };
+})();
+</script>
+</body>
+</html>
